@@ -1,0 +1,96 @@
+.section {
+  padding-left: $p-6;
+  padding-right: $p-6;
+  padding-bottom:  $p-4;
+
+  font-family: $font-family;
+  color: $color-white;
+
+ &__block{
+  @include flex();
+
+  &_left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+  &_left_description{
+    font-family: $font-family;
+    line-height: 13px;
+    font-size: $font-26;
+    color: $color-white;
+    font-weight: $font-w-300;
+    letter-spacing: 2px;
+
+    padding-top: $p-1-5;
+    padding-left: $p-0-5;
+    padding-bottom: $p-0-5;
+
+    &_exp{
+      font-weight:$font-w-700;
+    }
+  }
+}}
+
+.section-1{
+  padding-top: $p-6;
+  background: linear-gradient(180deg,#EB0000 27.72%,rgba(235,0,0,0) 97.5%);
+}
+
+.section-3 {
+  font-size: $font-60;
+  font-weight: $font-w-900;
+
+  &_numbers{
+    color: $color-alpharomeo;
+
+    &_1{
+      color: $color-white;
+    }
+  }
+
+  &_description{
+    font-size:$font-28;
+    font-weight: $font-w-500;
+  }
+}
+
+.section__features{
+  background: $color-box;
+  border-radius: 25px;
+
+  padding: $p-1-5;
+  
+  @include flex();
+  justify-content: space-around;
+}
+
+.section-5___left{
+  width: 50%;
+}
+
+.section__form,
+.section__plan,
+.section__game,
+.section__reviews{
+  @include flex();
+
+  align-items: flex-start;
+}
+
+.section-8__block,
+.section-7__block,
+.section-6__block {
+  background: $color-box;
+  border-radius: 25px;
+  width: 70%;
+
+  margin-right: $m-2;
+  padding: $p-2;
+}
+
+
+
+

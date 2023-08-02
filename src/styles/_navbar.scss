@@ -14,11 +14,5 @@
     @include flex();
 
     padding: $p-1;
-
-    &:hover {
-      transform: translateY(-3px);
-    }
   }
-
-
 }

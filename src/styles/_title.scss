@@ -1,0 +1,86 @@
+.section__title {
+  font-size: $font-38;
+  font-weight: $font-w-700;
+
+  padding-bottom: $p-1;
+}
+
+.section__description{
+  font-size: $font-18;
+}
+
+.section-5,
+.section-6,
+.section-7,
+.section-8 {
+  &__title3 {
+    font-weight: $font-w-600;
+    line-height: 30px;
+    letter-spacing:1px;
+    
+    padding-bottom: $p-1; 
+  }
+
+  &__title2 {
+    margin-top: $m-4;
+
+    color: $color-yellow;
+    font-weight: $font-w-700;
+
+    font-size: $font-26;
+  }
+
+  &__description {
+    font-size: $font-18;
+    letter-spacing:2px;
+  }
+}
+
+.section-10,
+.section-8,
+.section-7,
+.section-6 {
+  &__title{
+    font-size: $font-38;
+    font-weight: $font-w-700;
+
+    text-align: center;
+  
+    padding-bottom: $p-2;
+  }
+
+  &__country{
+    font-size: $font-18;
+    font-weight: $font-w-600;
+
+    margin-top: $m-1;
+  }
+
+  &__title3{
+    font-size: $font-20;
+    font-weight: $font-w-700;
+  }
+}
+
+.section-7 {
+  &__description_1 {
+    padding: $p-2;
+  }
+}
+
+.section-8 {
+  &__number {
+    font-size: $font-38;
+    padding-top: $p-1;
+
+    &_diff{
+      font-size: $font-16;
+    }
+  }
+}
+
+.section-10 {
+  &__title{
+    text-align: left;
+  }
+}

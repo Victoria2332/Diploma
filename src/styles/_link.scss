@@ -20,13 +20,14 @@
     &:hover { 
     text-decoration: none;
     color: $color-black;
-    background-color: none;
+    transform: translateY(-3px);
     }
   }
 
   &:hover {
     text-decoration: none;
-    color: $color-black;
+    color: $color-white;
+    transform: translateY(-3px);
   }
 }
 
@@ -45,6 +46,7 @@
   &:hover{
     color: $color-white;
     text-decoration: none;
+    transform: translateY(-3px);
   }
 }
 
