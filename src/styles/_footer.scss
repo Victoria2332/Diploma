@@ -1,0 +1,17 @@
+.footer{
+  @include flex();
+
+  position: relative;
+  width: 100%;
+  padding: $p-1;
+  padding-left: $p-4;
+  
+  font-family: $font-family;
+
+  border-top: 1px solid $color-white;
+
+  &__text_description{
+    $font-14: 14px;
+    color: $color-white;
+  }
+}

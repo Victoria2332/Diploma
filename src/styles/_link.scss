@@ -1,0 +1,50 @@
+.navbar__link{
+  @include transition();
+
+  position: relative;
+  padding: $p-0-5;
+
+  text-decoration: none;
+  line-height: 30px;
+  color: $color-white;
+  font-size: $font-14;
+  font-weight: $font-w-400;
+
+  &_brd {
+    border-radius: 8px;
+    background: $color-white;
+    padding: $p-0-5;
+    color: $color-black;
+    font-weight: $font-w-700;
+
+    &:hover { 
+    text-decoration: none;
+    color: $color-black;
+    background-color: none;
+    }
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: $color-black;
+  }
+}
+
+.navbar__link_footer{
+  @include transition();
+
+  position: relative;
+  padding: $p-0-5;
+
+  text-decoration: none;
+  line-height: 30px;
+  color: $color-white;
+  font-size: $font-14;
+  font-weight: $font-w-400;
+
+  &:hover{
+    color: $color-white;
+    text-decoration: none;
+  }
+}
+

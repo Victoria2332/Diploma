@@ -1,0 +1,24 @@
+.navbar {
+  &__lists {
+    @include flex();
+    width: 100%;
+
+  &_footer{
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  }
+
+  &__list{
+    @include transition();
+    @include flex();
+
+    padding: $p-1;
+
+    &:hover {
+      transform: translateY(-3px);
+    }
+  }
+
+
+}
