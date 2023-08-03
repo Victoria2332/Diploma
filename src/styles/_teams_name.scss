@@ -1,0 +1,659 @@
+.name__alfa {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-alpharomeo;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__alpha {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-alphatauri;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__alpine {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-alpine;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__aston {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-astonmartin;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__ferrari {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-ferrari;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__haas {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-haas;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__mc {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-mclaren;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__red {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-redbull;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__williams {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-williams;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}
+
+.name__mer {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow:
+  3px 3px $color-white,
+  -1px 1px $color-white,
+  -1px -1px $color-white,
+  1px -1px $color-white;
+  color: $color-mersedes;
+  font-size: $font-80;
+  font-weight: $font-w-700;
+  transition: all 1s;
+
+  cursor: pointer;
+
+  &:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    -60deg,
+    rgba(72, 209, 204, 0) 1px,
+    $color-white 2px,
+    rgba(72, 209, 204, 0) 3px )
+    repeat;
+  background-size: 7px 7px;
+  }
+
+  &:after {
+    content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  color: white;
+  transition: all 1s;
+  }
+
+  &:hover{
+    color: $color-box;
+  }
+
+  &:hover:before{
+    animation: 5s move_lines infinite linear;
+  }
+
+  &:hover:after{
+    color: $color-box;
+    text-shadow:
+    1px 1px $color-box,
+    2px 2px $color-box,
+    3px 3px $color-box,
+    4px 4px $color-box;
+  }
+}

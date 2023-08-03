@@ -123,25 +123,131 @@ input {
   border-radius: 0;
 }
 
-.image_car {
+@keyframes move_lines {
+  100% {
+    background-position: 40px 40px;
+  }
+}
+.image__car {
   box-shadow: 7px 5px 5px #eb0000;
 }
+.image__car_alpha {
+  box-shadow: 7px 5px 5px #87CEFA;
+}
+.image__car_alpine {
+  box-shadow: 7px 5px 5px #1E90FF;
+}
+.image__car_aston {
+  box-shadow: 7px 5px 5px #3CB371;
+}
+.image__car_ferrari {
+  box-shadow: 7px 5px 5px #eb0000;
+}
+.image__car_haas {
+  box-shadow: 7px 5px 5px #B22222;
+}
+.image__car_mc {
+  box-shadow: 7px 5px 5px #FFD700;
+}
+.image__car_mer {
+  box-shadow: 7px 5px 5px #87CEFA;
+}
+.image__car_red {
+  box-shadow: 7px 5px 5px #0000CD;
+}
+.image__car_williams {
+  box-shadow: 7px 5px 5px #00BFFF;
+}
 
-.image_team {
+.image__team {
   margin-left: 9rem;
   padding: 2rem;
 }
 
-.image_plan {
+.image__plan {
   padding-bottom: 1rem;
 }
 
+.image__pilot {
+  box-shadow: 7px 5px 5px #47474b;
+}
+
+@media (max-width: 360px) {
+  .image {
+    width: 100px;
+    height: 110px;
+  }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .image {
+    width: 200px;
+    height: 210px;
+  }
+}
+@media (min-width: 758px) and (max-width: 1024px) {
+  .image {
+    width: 290px;
+    height: 300px;
+  }
+}
+@media (max-width: 360px) {
+  .image2 {
+    width: 50px;
+    height: 20px;
+  }
+}
+@media (min-width: 360px) and (max-width: 768px) {
+  .image2 {
+    width: 100px;
+    height: 30px;
+  }
+}
+@media (min-width: 758px) and (max-width: 1024px) {
+  .image2 {
+    width: 130px;
+    height: 50px;
+  }
+}
 .dropdown-item:hover {
   border-radius: 2px 11%;
   background: #B22222;
   padding: 0.5rem;
   color: #ffffff;
   text-align: center;
+}
+
+.btns {
+  transition: all 0.3s;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: 4rem;
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 0 8px 15px #47474b;
+}
+.btns:hover {
+  filter: blur(3px);
+  box-shadow: 0 5px 10px #1C1C1E;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.btns__add {
+  background: #B22222;
+}
+.btns__up {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+}
+.btns__up_hide {
+  display: none;
 }
 
 .navbar__link {
@@ -163,7 +269,8 @@ input {
 }
 .navbar__link_brd:hover {
   text-decoration: none;
-  color: #0E0E0E;
+  color: #ffffff;
+  background-color: #47474b;
   transform: translateY(-3px);
 }
 .navbar__link:hover {
@@ -186,6 +293,41 @@ input {
   color: #ffffff;
   text-decoration: none;
   transform: translateY(-3px);
+}
+
+.list-group-item {
+  background: #47474b;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.tab-pane {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+
+.team__pilot {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  padding-right: 5rem;
+}
+
+.team__pilots {
+  color: #ffffff;
+  display: inline-flex;
+}
+
+.pilot_number {
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 60px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .section__title {
@@ -273,6 +415,7 @@ input {
 }
 .navbar__lists_footer {
   display: inline-flex;
+  display: inline-flex;
   justify-content: space-evenly;
 }
 .navbar__list {
@@ -291,15 +434,18 @@ input {
 }
 
 .field {
-  width: 30%;
+  width: 95%;
   margin-bottom: 1.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
+  padding-right: 5rem;
+  margin-right: 1rem;
   cursor: pointer;
   outline: none;
   background-color: #1C1C1E;
   border: 4px solid rgba(0, 0, 0, 0);
   border-radius: 23px;
   font-size: 15px;
+  color: #ffffff;
   transition: all 0.3s;
 }
 
@@ -308,7 +454,7 @@ input {
 }
 
 .btn {
-  margin: 0.5rem 1rem;
+  margin-top: 2rem;
   padding: 0.5rem 1.5rem;
   border-radius: 0.3rem;
   outline: none;
@@ -323,7 +469,452 @@ input {
 }
 
 .btn_add {
-  background-color: darkgreen;
+  background-color: #1C1C1E;
+}
+
+.subject,
+.help {
+  background-color: #1C1C1E;
+  border-radius: 0.8rem;
+  border: 4px solid rgba(0, 0, 0, 0);
+  margin-bottom: 1rem;
+  padding: 0.5rem 2rem;
+  width: 83%;
+  color: #ffffff;
+}
+
+.navbar__list_form {
+  display: inline-block;
+}
+
+.name__alfa {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #FF0000;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__alfa:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__alfa:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__alfa:hover {
+  color: #1C1C1E;
+}
+.name__alfa:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__alfa:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__alpha {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #87CEFA;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__alpha:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__alpha:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__alpha:hover {
+  color: #1C1C1E;
+}
+.name__alpha:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__alpha:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__alpine {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #1E90FF;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__alpine:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__alpine:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__alpine:hover {
+  color: #1C1C1E;
+}
+.name__alpine:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__alpine:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__aston {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #3CB371;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__aston:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__aston:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__aston:hover {
+  color: #1C1C1E;
+}
+.name__aston:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__aston:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__ferrari {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #eb0000;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__ferrari:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__ferrari:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__ferrari:hover {
+  color: #1C1C1E;
+}
+.name__ferrari:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__ferrari:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__haas {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #B22222;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__haas:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__haas:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__haas:hover {
+  color: #1C1C1E;
+}
+.name__haas:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__haas:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__mc {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #FFD700;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__mc:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__mc:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__mc:hover {
+  color: #1C1C1E;
+}
+.name__mc:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__mc:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__red {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #0000CD;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__red:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__red:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__red:hover {
+  color: #1C1C1E;
+}
+.name__red:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__red:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__williams {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #00BFFF;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__williams:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__williams:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__williams:hover {
+  color: #1C1C1E;
+}
+.name__williams:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__williams:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+}
+
+.name__mer {
+  display: inline-block;
+  position: relative;
+  letter-spacing: 1rem;
+  text-shadow: 3px 3px #ffffff, -1px 1px #ffffff, -1px -1px #ffffff, 1px -1px #ffffff;
+  color: #00CED1;
+  font-size: 80px;
+  font-weight: 700;
+  transition: all 1s;
+  cursor: pointer;
+}
+.name__mer:before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: -15px;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(-60deg, rgba(72, 209, 204, 0) 1px, #ffffff 2px, rgba(72, 209, 204, 0) 3px) repeat;
+  background-size: 7px 7px;
+}
+.name__mer:after {
+  content: attr(data-name);
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: -2;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
+  color: white;
+  transition: all 1s;
+}
+.name__mer:hover {
+  color: #1C1C1E;
+}
+.name__mer:hover:before {
+  animation: 5s move_lines infinite linear;
+}
+.name__mer:hover:after {
+  color: #1C1C1E;
+  text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
 }
 
 .header {
@@ -378,6 +969,42 @@ input {
   padding-top: 6rem;
   background: linear-gradient(180deg, #EB0000 27.72%, rgba(235, 0, 0, 0) 97.5%);
 }
+.section-1_alpha {
+  background: linear-gradient(180deg, #87CEFA 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_aston {
+  background: linear-gradient(180deg, #3CB371 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_haas {
+  background: linear-gradient(180deg, #B22222 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_ferrari {
+  background: linear-gradient(180deg, #eb0000 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_alpine {
+  background: linear-gradient(180deg, #1E90FF 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_mc {
+  background: linear-gradient(180deg, #FFD700 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_mer {
+  background: linear-gradient(180deg, #00CED1 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_red {
+  background: linear-gradient(180deg, #0000CD 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
+.section-1_williams {
+  background: linear-gradient(180deg, #00BFFF 27.72%, rgba(235, 0, 0, 0) 97.5%);
+  padding-top: 6rem;
+}
 
 .section-3 {
   font-size: 60px;
@@ -388,6 +1015,33 @@ input {
 }
 .section-3_numbers_1 {
   color: #ffffff;
+}
+.section-3_numbers_alpha {
+  color: #87CEFA;
+}
+.section-3_numbers_alpine {
+  color: #1E90FF;
+}
+.section-3_numbers_aston {
+  color: #3CB371;
+}
+.section-3_numbers_ferrari {
+  color: #eb0000;
+}
+.section-3_numbers_haas {
+  color: #B22222;
+}
+.section-3_numbers_mc {
+  color: #FFD700;
+}
+.section-3_numbers_mer {
+  color: #00CED1;
+}
+.section-3_numbers_red {
+  color: #0000CD;
+}
+.section-3_numbers_williams {
+  color: #00BFFF;
 }
 .section-3_description {
   font-size: 28px;
@@ -426,6 +1080,10 @@ input {
   width: 70%;
   margin-right: 2rem;
   padding: 2rem;
+}
+
+.section-10__block_left {
+  width: 100%;
 }
 
 .footer {

@@ -1,0 +1,43 @@
+.list-group-item {
+  background: $color-box-nav;
+  color: $color-white;
+
+  letter-spacing: 1px;
+  font-size: $font-18;
+
+
+  // &::after:hover{
+  //   background: $color-white;
+  // }
+}
+
+.tab-pane{
+  font-weight: 400;
+  font-size: $font-16;
+  letter-spacing: .5px;
+
+  line-height: 20px;
+}
+
+.team__pilot{
+  font-weight: 400;
+  font-size: $font-16;
+  letter-spacing: .5px;
+  color: $color-white;
+  padding-right: $p-5;
+}
+
+.team__pilots{
+  color: $color-white;
+  display: inline-flex;
+}
+
+.pilot_number{
+  font-weight: $font-w-700;
+  color: $color-white;
+  font-size: $font-60;
+  
+  margin-top: $m-1;
+  margin-bottom: $m-2;
+}
+

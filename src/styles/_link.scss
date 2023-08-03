@@ -19,7 +19,8 @@
 
     &:hover { 
     text-decoration: none;
-    color: $color-black;
+    color: $color-white;
+    background-color: $color-box-nav;
     transform: translateY(-3px);
     }
   }

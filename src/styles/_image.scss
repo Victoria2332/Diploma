@@ -1,14 +1,98 @@
 
-.image_car{
+.image__car{
   box-shadow: 7px 5px 5px $color-ferrari;
+
+  &_alpha{
+    box-shadow: 7px 5px 5px $color-alphatauri;
+  }
+
+  &_alpine{
+    box-shadow: 7px 5px 5px $color-alpine;
+  }
+
+  &_aston{
+    box-shadow: 7px 5px 5px $color-astonmartin;
+  }
+
+  &_ferrari{
+    box-shadow: 7px 5px 5px $color-ferrari;
+  }
+
+  &_haas{
+    box-shadow: 7px 5px 5px $color-haas;
+  }
+
+  &_mc{
+    box-shadow: 7px 5px 5px $color-mclaren;
+  }
+
+  &_mer{
+    box-shadow: 7px 5px 5px $color-alphatauri;
+  }
+
+  &_red{
+    box-shadow: 7px 5px 5px $color-redbull;
+  }
+
+  &_williams{
+    box-shadow: 7px 5px 5px $color-williams;
+  }
 }
 
 // !Спросить что картинка сьъезжает и не по центру
-.image_team{
+.image__team{
  margin-left: $m-9;
  padding: $p-2;
 }   
 
-.image_plan{
+.image__plan{
   padding-bottom: $p-1;
 }
+
+.image__pilot {
+  box-shadow: 7px 5px 5px $color-box-nav;
+}
+
+@media (max-width: 360px) {
+  .image {
+    width: 100px;
+    height: 110px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .image {
+    width: 200px;
+    height: 210px;
+  }
+}
+
+@media (min-width: 758px) and (max-width: 1024px) {
+  .image {
+    width: 290px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .image2 {
+    width: 50px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  .image2 {
+    width: 100px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 758px) and (max-width: 1024px) {
+  .image2 {
+    width: 130px;
+    height: 50px;
+  }
+}
+
+

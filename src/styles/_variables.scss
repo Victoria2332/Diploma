@@ -2,12 +2,14 @@
 
 $color-white: #ffffff;
 $color-black: #0E0E0E;
+$color-dark-black: #000000;
 $color-green: #20da7d;
 $color-yellow: #FFFF00;
 $color-dark-green: #006400;
 $color-DarkBlue: #00008B;
 $color-orange: #FFA500;
 $color-box:#1C1C1E;
+$color-box-nav:#47474b;
 
 
 $color-mclaren:#FFD700;
@@ -21,7 +23,7 @@ $color-astonmartin:#3CB371;
 $color-alpine:#1E90FF;
 $color-mersedes: #00CED1;
 
-$background: linear-gradient(rgb(222, 57, 57), rgba(0, 0, 0, 0));
+$background: linear-gradient(180deg,#EB0000 27.72%,rgba(235,0,0,0) 97.5%);
 
 
 // FONT-SIZE
@@ -46,6 +48,7 @@ $font-40: 40px;
 $font-48: 48px;
 $font-60: 60px;
 $font-80: 80px;
+$font-100: 100px;
 
 // FONT-WEIGHT
 $font-w-200: 200;

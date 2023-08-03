@@ -37,6 +37,51 @@
 .section-1{
   padding-top: $p-6;
   background: linear-gradient(180deg,#EB0000 27.72%,rgba(235,0,0,0) 97.5%);
+
+  &_alpha{
+    background: linear-gradient(180deg,#87CEFA 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_aston {
+    background: linear-gradient(180deg,#3CB371 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_haas {
+    background: linear-gradient(180deg,#B22222 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_ferrari {
+    background: linear-gradient(180deg,#eb0000 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_alpine {
+    background: linear-gradient(180deg,#1E90FF 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_mc {
+    background: linear-gradient(180deg,#FFD700 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_mer {
+    background: linear-gradient(180deg,#00CED1 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_red {
+    background: linear-gradient(180deg,#0000CD 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
+
+  &_williams {
+    background: linear-gradient(180deg,#00BFFF 27.72%,rgba(235,0,0,0) 97.5%);
+    padding-top: $p-6;
+  }
 }
 
 .section-3 {
@@ -46,8 +91,44 @@
   &_numbers{
     color: $color-alpharomeo;
 
-    &_1{
+    &_1 {
       color: $color-white;
+    }
+
+    &_alpha {
+      color: $color-alphatauri;
+    }
+    
+    &_alpine {
+      color: $color-alpine;
+    }
+
+    &_aston {
+      color: $color-astonmartin;
+    }
+
+    &_ferrari {
+      color: $color-ferrari;
+    }
+
+    &_haas {
+      color: $color-haas;
+    }
+
+    &_mc{
+      color: $color-mclaren;
+    }
+
+    &_mer {
+      color: $color-mersedes;
+    }
+
+    &_red {
+      color: $color-redbull;
+    }
+
+    &_williams {
+      color: $color-williams;
     }
   }
 
@@ -90,6 +171,12 @@
   margin-right: $m-2;
   padding: $p-2;
 }
+
+.section-10__block_left{
+  width: 100%;
+}
+
+
 
 
 

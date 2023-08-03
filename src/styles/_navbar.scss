@@ -5,11 +5,11 @@
 
   &_footer{
     display: inline-flex;
-    justify-content: space-evenly;
+   display: inline-flex; justify-content: space-evenly;
   }
   }
 
-  &__list{
+  &__list {
     @include transition();
     @include flex();
 
