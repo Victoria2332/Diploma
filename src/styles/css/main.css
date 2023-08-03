@@ -172,6 +172,58 @@ input {
   box-shadow: 7px 5px 5px #47474b;
 }
 
+.image__track_abu {
+  box-shadow: 7px 5px 5px #006400;
+}
+.image__track_bahrain {
+  box-shadow: 7px 5px 5px #B22222;
+}
+.image__track_arab {
+  box-shadow: 7px 5px 5px #006400;
+}
+.image__track_aus {
+  box-shadow: 7px 5px 5px #FFD700;
+}
+.image__track_azer {
+  box-shadow: 7px 5px 5px #3CB371;
+}
+.image__track_mia {
+  box-shadow: 7px 5px 5px #00008B;
+}
+.image__track_mon {
+  box-shadow: 7px 5px 5px #FF0000;
+}
+.image__track_span {
+  box-shadow: 7px 5px 5px #eb0000;
+}
+.image__track_can {
+  box-shadow: 7px 5px 5px #B22222;
+}
+.image__track_aust {
+  box-shadow: 7px 5px 5px #eb0000;
+}
+.image__track_uk {
+  box-shadow: 7px 5px 5px #341357;
+}
+.image__track_hun {
+  box-shadow: 7px 5px 5px #2e762e;
+}
+.image__track_bel {
+  box-shadow: 7px 5px 5px #FFFF00;
+}
+.image__track_neth {
+  box-shadow: 7px 5px 5px rgb(236, 109, 19);
+}
+.image__track_it {
+  box-shadow: 7px 5px 5px #2e762e;
+}
+.image__track_ {
+  box-shadow: 7px 5px 5px #B22222;
+}
+.image__track_ {
+  box-shadow: 7px 5px 5px #B22222;
+}
+
 @media (max-width: 360px) {
   .image {
     width: 100px;
@@ -330,6 +382,19 @@ input {
   margin-bottom: 2rem;
 }
 
+.navbar__track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+
+.navbar__tracks {
+  padding-top: 1rem;
+}
+
 .section__title {
   font-size: 38px;
   font-weight: 700;
@@ -348,6 +413,12 @@ input {
   line-height: 30px;
   letter-spacing: 1px;
   padding-bottom: 1rem;
+}
+.section-5__title3_track,
+.section-6__title3_track,
+.section-7__title3_track,
+.section-8__title3_track {
+  font-size: 24px;
 }
 .section-5__title2,
 .section-6__title2,
@@ -1084,6 +1155,280 @@ input {
 
 .section-10__block_left {
   width: 100%;
+}
+
+.section__track {
+  background: #1C1C1E;
+  border-radius: 25px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+  display: inline-flex;
+  align-items: flex-end;
+}
+.section__track_left {
+  width: 40%;
+}
+.section__track_right {
+  width: 60%;
+}
+
+.block__track_title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+.block__track_date {
+  padding-top: 0.5rem;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.block__track_title2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+.block__track_description {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.block__track_up {
+  padding-bottom: 2rem;
+}
+.block__track_down {
+  padding-bottom: 2rem;
+}
+
+.block__text_dhabi {
+  color: #006400;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_dhabi_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_bahrain {
+  color: #B22222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_bahrain_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_arab {
+  color: #006400;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_arab_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_aus {
+  color: #FFD700;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_aus_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_azer {
+  color: #3CB371;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_azer_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_mia {
+  color: #00008B;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_mia_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_mon {
+  color: #FF0000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_mon_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_span {
+  color: #eb0000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_span_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_can {
+  color: #B22222;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_can_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_aust {
+  color: #eb0000;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_aust_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_uk {
+  color: #341357;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_uk_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_hun {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_hun_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_bel {
+  color: #FFFF00;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_bel_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_neth {
+  color: rgb(236, 109, 19);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_neth_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_it {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text_it_diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_ {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text__diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_ {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text__diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_ {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text__diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_ {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text__diff {
+  font-size: 24px;
+  font-weight: 400;
+}
+.block__text_ {
+  color: #2e762e;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+.block__text__diff {
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .footer {

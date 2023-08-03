@@ -41,3 +41,13 @@
   margin-bottom: $m-2;
 }
 
+.navbar__track {
+  @include flex();
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: $p-2;
+}
+.navbar__tracks{
+  padding-top: $p-1;
+}
+

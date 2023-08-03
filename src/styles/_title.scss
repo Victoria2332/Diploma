@@ -19,6 +19,10 @@
     letter-spacing:1px;
     
     padding-bottom: $p-1; 
+
+    &_track{
+      font-size: $font-24;
+    }
   }
 
   &__title2 {

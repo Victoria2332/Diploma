@@ -53,6 +53,76 @@
   box-shadow: 7px 5px 5px $color-box-nav;
 }
 
+.image__track {
+  &_abu{
+     box-shadow: 7px 5px 5px $color-dark-green;
+  }
+
+  &_bahrain {
+    box-shadow: 7px 5px 5px $color-haas;
+  }
+
+  &_arab {
+    box-shadow: 7px 5px 5px $color-dark-green;
+  }
+
+  &_aus {
+    box-shadow: 7px 5px 5px $color-mclaren;
+  }
+
+  &_azer {
+    box-shadow: 7px 5px 5px $color-astonmartin;
+  }
+
+  &_mia {
+    box-shadow: 7px 5px 5px $color-DarkBlue;
+  }
+
+  &_mon {
+    box-shadow: 7px 5px 5px $color-alpharomeo;
+  }
+
+  &_span {
+    box-shadow: 7px 5px 5px $color-ferrari;
+  }
+
+  &_can {
+    box-shadow: 7px 5px 5px $color-haas;
+  }
+
+  &_aust {
+    box-shadow: 7px 5px 5px $color-ferrari;
+  }
+
+  &_uk {
+    box-shadow: 7px 5px 5px $color-dark-purple;
+  }
+
+  &_hun {
+    box-shadow: 7px 5px 5px $color-dark-green-2;
+  }
+
+  &_bel {
+    box-shadow: 7px 5px 5px $color-yellow;
+  }
+
+  &_neth {
+    box-shadow: 7px 5px 5px $color-dark-orange;
+  }
+
+  &_it{
+    box-shadow: 7px 5px 5px $color-dark-green-2;
+  }
+
+  &_ {
+    box-shadow: 7px 5px 5px $color-haas;
+  }
+
+  &_ {
+    box-shadow: 7px 5px 5px $color-haas;
+  }
+}
+
 @media (max-width: 360px) {
   .image {
     width: 100px;

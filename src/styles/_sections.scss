@@ -176,6 +176,337 @@
   width: 100%;
 }
 
+.section__track {
+  background: $color-box;
+  border-radius: 25px;
+
+  padding-left: $p-1-5;
+  padding-right: $p-1-5;
+  padding-bottom: $p-1-5;
+  margin-bottom: $m-1;
+
+  display: inline-flex;
+  align-items: flex-end;
+
+  &_left {
+    width: 40%;
+  }
+
+  &_right {
+    width: 60%;
+  }
+}
+
+.block__track {
+  &_title {
+    font-size:$font-22;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+    padding-bottom: $p-1;
+  }
+
+  &_date {
+    padding-top: $p-0-5;
+    font-size:$font-22;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+  
+  &_title2{
+    font-size:$font-20;
+    font-weight: $font-w-400;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+
+  &_description {
+    font-size:$font-20;
+    font-weight: $font-w-300;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+    text-align: center;
+    padding-bottom: $p-1;
+  }
+}
+
+.block__track{
+  &_up {
+    padding-bottom: $p-2;
+  }
+
+  &_down {
+    padding-bottom: $p-2;
+  }
+}
+
+.block__text {
+  &_dhabi {
+  color: $color-dark-green;
+  font-size:$font-40;
+  font-weight: $font-w-700;
+  line-height: 20px;
+  letter-spacing: 2px;
+
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_bahrain {
+    color: $color-haas;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+  
+      &_diff {
+        font-size:$font-24;
+        font-weight: $font-w-400;
+      }
+    }
+    
+  &_arab {
+    color: $color-dark-green;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+    
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_aus {
+    color: $color-mclaren;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+      
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_azer {
+    color: $color-astonmartin;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_mia {
+    color: $color-DarkBlue;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_mon {
+    color: $color-alpharomeo;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_span{
+    color: $color-ferrari;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_can {
+    color: $color-haas;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_aust {
+    color: $color-ferrari;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_uk {
+    color: $color-dark-purple;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_hun {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_bel {
+    color: $color-yellow;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_neth{
+    color: $color-dark-orange;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_it {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_ {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_ {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_ {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_ {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_ {
+    color: $color-dark-green-2;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+}
+
+
+
 
 
 
