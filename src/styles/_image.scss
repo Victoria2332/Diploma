@@ -55,15 +55,15 @@
 
 .image__track {
   &_abu{
-     box-shadow: 7px 5px 5px $color-dark-green;
+     box-shadow: 7px 5px 5px $colot-limeGreen;
   }
 
   &_bahrain {
-    box-shadow: 7px 5px 5px $color-haas;
+    box-shadow: 7px 5px 5px $color-ferrari;
   }
 
   &_arab {
-    box-shadow: 7px 5px 5px $color-dark-green;
+    box-shadow: 7px 5px 5px $colot-limeGreen;
   }
 
   &_aus {
@@ -87,7 +87,7 @@
   }
 
   &_can {
-    box-shadow: 7px 5px 5px $color-haas;
+    box-shadow: 7px 5px 5px $color-alpharomeo;
   }
 
   &_aust {
@@ -95,7 +95,7 @@
   }
 
   &_uk {
-    box-shadow: 7px 5px 5px $color-dark-purple;
+    box-shadow: 7px 5px 5px $color-redbull;
   }
 
   &_hun {
@@ -111,15 +111,39 @@
   }
 
   &_it{
-    box-shadow: 7px 5px 5px $color-dark-green-2;
+    box-shadow: 7px 5px 5px $colot-limeGreen;
+  }
+
+  &_sin{
+    box-shadow: 7px 5px 5px $color-ferrari;
+  }
+
+  &_jap {
+    box-shadow: 7px 5px 5px $color-alpharomeo;
+  }
+
+  &_qat {
+    box-shadow: 7px 5px 5px $color-Crimson;
+  }
+
+  &_usa {
+    box-shadow: 7px 5px 5px $color-redbull;
+  }
+
+  &_mex{
+    box-shadow: 7px 5px 5px $color-astonmartin;
+  }
+
+  &_sao {
+    box-shadow: 7px 5px 5px $colot-limeGreen;
   }
 
   &_ {
     box-shadow: 7px 5px 5px $color-haas;
   }
 
-  &_ {
-    box-shadow: 7px 5px 5px $color-haas;
+  &_las {
+    box-shadow: 7px 5px 5px $color-alpine;
   }
 }
 

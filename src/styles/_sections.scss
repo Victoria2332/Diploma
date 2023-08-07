@@ -245,7 +245,7 @@
 
 .block__text {
   &_dhabi {
-  color: $color-dark-green;
+  color: $colot-limeGreen;
   font-size:$font-40;
   font-weight: $font-w-700;
   line-height: 20px;
@@ -258,7 +258,7 @@
   }
 
   &_bahrain {
-    color: $color-haas;
+    color: $color-ferrari;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -271,7 +271,7 @@
     }
     
   &_arab {
-    color: $color-dark-green;
+    color: $colot-limeGreen;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -349,7 +349,7 @@
   }
 
   &_can {
-    color: $color-haas;
+    color: $color-alpharomeo;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -375,7 +375,7 @@
   }
 
   &_uk {
-    color: $color-dark-purple;
+    color: $color-redbull;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -427,7 +427,7 @@
   }
 
   &_it {
-    color: $color-dark-green-2;
+    color: $colot-limeGreen;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -452,8 +452,8 @@
     }
   }
 
-  &_ {
-    color: $color-dark-green-2;
+  &_sin {
+    color: $color-ferrari;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -465,8 +465,8 @@
     }
   }
 
-  &_ {
-    color: $color-dark-green-2;
+  &_jap {
+    color: $color-alpharomeo;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -478,8 +478,8 @@
     }
   }
 
-  &_ {
-    color: $color-dark-green-2;
+  &_qat {
+    color: $color-Crimson;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -491,8 +491,20 @@
     }
   }
 
-  &_ {
-    color: $color-dark-green-2;
+  &_usa{
+    color: $color-redbull;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+
+  }&_mex{
+    color: $color-astonmartin;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;
@@ -503,6 +515,34 @@
       font-weight: $font-w-400;
     }
   }
+
+  &_sao{
+    color: $colot-limeGreen;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+  &_las{
+    color: $color-alpine;
+    font-size:$font-40;
+    font-weight: $font-w-700;
+    line-height: 20px;
+    letter-spacing: 2px;
+        
+    &_diff {
+      font-size:$font-24;
+      font-weight: $font-w-400;
+    }
+  }
+
+
 }
 
 
