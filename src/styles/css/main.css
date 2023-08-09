@@ -130,33 +130,53 @@ input {
 }
 .image__car {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 370px;
+  height: 470px;
 }
 .image__car_alpha {
   box-shadow: 7px 5px 5px #87CEFA;
+  width: 370px;
+  height: 470px;
 }
 .image__car_alpine {
   box-shadow: 7px 5px 5px #1E90FF;
+  width: 370px;
+  height: 470px;
 }
 .image__car_aston {
   box-shadow: 7px 5px 5px #3CB371;
+  width: 370px;
+  height: 470px;
 }
 .image__car_ferrari {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 370px;
+  height: 470px;
 }
 .image__car_haas {
   box-shadow: 7px 5px 5px #B22222;
+  width: 370px;
+  height: 470px;
 }
 .image__car_mc {
   box-shadow: 7px 5px 5px #FFD700;
+  width: 370px;
+  height: 470px;
 }
 .image__car_mer {
   box-shadow: 7px 5px 5px #87CEFA;
+  width: 370px;
+  height: 470px;
 }
 .image__car_red {
   box-shadow: 7px 5px 5px #0000CD;
+  width: 370px;
+  height: 470px;
 }
 .image__car_williams {
   box-shadow: 7px 5px 5px #00BFFF;
+  width: 370px;
+  height: 470px;
 }
 
 .image__team {
@@ -170,6 +190,8 @@ input {
 
 .image__pilot {
   box-shadow: 7px 5px 5px #47474b;
+  width: 370px;
+  height: 400px;
 }
 
 .image__track_abu {
@@ -177,69 +199,118 @@ input {
 }
 .image__track_bahrain {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_arab {
   box-shadow: 7px 5px 5px #32CD32;
+  width: 400px;
+  height: 350px;
 }
 .image__track_aus {
   box-shadow: 7px 5px 5px #FFD700;
+  width: 400px;
+  height: 350px;
 }
 .image__track_azer {
   box-shadow: 7px 5px 5px #3CB371;
+  width: 400px;
+  height: 350px;
 }
 .image__track_mia {
   box-shadow: 7px 5px 5px #00008B;
+  width: 400px;
+  height: 350px;
 }
 .image__track_mon {
   box-shadow: 7px 5px 5px #FF0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_span {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_can {
   box-shadow: 7px 5px 5px #FF0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_aust {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_uk {
   box-shadow: 7px 5px 5px #0000CD;
+  width: 400px;
+  height: 350px;
 }
 .image__track_hun {
   box-shadow: 7px 5px 5px #2e762e;
+  width: 400px;
+  height: 350px;
 }
 .image__track_bel {
   box-shadow: 7px 5px 5px #FFFF00;
+  width: 400px;
+  height: 350px;
 }
 .image__track_neth {
   box-shadow: 7px 5px 5px rgb(236, 109, 19);
+  width: 400px;
+  height: 350px;
 }
 .image__track_it {
   box-shadow: 7px 5px 5px #32CD32;
+  width: 400px;
+  height: 350px;
 }
 .image__track_sin {
   box-shadow: 7px 5px 5px #eb0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_jap {
   box-shadow: 7px 5px 5px #FF0000;
+  width: 400px;
+  height: 350px;
 }
 .image__track_qat {
   box-shadow: 7px 5px 5px #dc143c;
+  width: 400px;
+  height: 350px;
 }
 .image__track_usa {
   box-shadow: 7px 5px 5px #0000CD;
+  width: 400px;
+  height: 350px;
 }
 .image__track_mex {
   box-shadow: 7px 5px 5px #3CB371;
+  width: 400px;
+  height: 350px;
 }
 .image__track_sao {
   box-shadow: 7px 5px 5px #32CD32;
+  width: 400px;
+  height: 350px;
 }
-.image__track_ {
+.image__track_abu {
   box-shadow: 7px 5px 5px #B22222;
+  width: 400px;
+  height: 350px;
 }
 .image__track_las {
   box-shadow: 7px 5px 5px #1E90FF;
+  width: 400px;
+  height: 350px;
+}
+
+.image__gp {
+  width: 400px;
+  height: 350px;
 }
 
 @media (max-width: 360px) {
@@ -278,56 +349,138 @@ input {
     height: 50px;
   }
 }
-.sidebar {
-  position: fixed;
-  width: 10%;
-  height: 70vh;
-  font-size: 0.65em;
+@media screen and (max-width: 768px) {
+  .image__box {
+    display: none;
+  }
+  .image__box_track {
+    margin-top: 5rem;
+    width: 350px;
+    height: 270px;
+  }
+  .image__create {
+    display: none;
+  }
+  .image__team {
+    display: none;
+  }
+  .image__map {
+    display: none;
+  }
+  .image__app {
+    display: none;
+  }
+  .image__gp {
+    width: 350px;
+    height: 400px;
+  }
+  .image__pilot {
+    width: 210px;
+    height: 240px;
+  }
+  .image__car_alpha {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_alpine {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_aston {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_ferrari {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_haas {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_mc {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_mer {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_red {
+    width: 100%;
+    height: 290px;
+  }
+  .image__car_williams {
+    width: 100%;
+    height: 290px;
+  }
+  .image__track_bahrain {
+    width: 100%;
+  }
+  .image__track_arab {
+    width: 100%;
+  }
+  .image__track_aus {
+    width: 100%;
+  }
+  .image__track_azer {
+    width: 100%;
+  }
+  .image__track_mia {
+    width: 100%;
+  }
+  .image__track_mon {
+    width: 100%;
+  }
+  .image__track_span {
+    width: 100%;
+  }
+  .image__track_can {
+    width: 100%;
+  }
+  .image__track_aust {
+    width: 100%;
+  }
+  .image__track_uk {
+    width: 100%;
+  }
+  .image__track_hun {
+    width: 100%;
+  }
+  .image__track_bel {
+    width: 100%;
+  }
+  .image__track_neth {
+    width: 100%;
+  }
+  .image__track_it {
+    width: 100%;
+  }
+  .image__track_sin {
+    width: 100%;
+  }
+  .image__track_jap {
+    width: 100%;
+  }
+  .image__track_qat {
+    width: 100%;
+  }
+  .image__track_usa {
+    width: 100%;
+  }
+  .image__track_mex {
+    width: 100%;
+  }
+  .image__track_sao {
+    width: 100%;
+  }
+  .image__track_las {
+    width: 100%;
+  }
+  .image__track_abu {
+    width: 100%;
+  }
 }
-
-.nav {
-  text-align: left;
-  top: 10%;
-  transform: translateY(-100%);
-  font-weight: bold;
-}
-
-.nav ul {
-  list-style: none;
-}
-.nav ul li {
-  position: relative;
-  margin: 2rem 0;
-}
-.nav ul li a {
-  line-height: 5em;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.4em;
-  color: rgba(255, 255, 255, 0.35);
-  display: block;
-  transition: all ease-out 300ms;
-}
-.nav ul li.active a {
-  color: white;
-}
-.nav ul li:not(.active)::after {
-  opacity: 0.2;
-}
-.nav ul li:not(.active):hover a {
-  color: rgba(255, 255, 255, 0.75);
-}
-.nav ul li::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 0.2em;
-  background: black;
-  left: 0;
-  bottom: 0;
-  background-image: linear-gradient(to right, #5e42a6, #b74e91);
-}
-
 .dropdown-item:hover {
   border-radius: 2px 11%;
   background: #B22222;
@@ -463,6 +616,24 @@ input {
   padding-top: 1rem;
 }
 
+@media screen and (max-width: 768px) {
+  .section__accardion {
+    width: 100%;
+  }
+  .team__pilots {
+    display: block;
+  }
+  .team__pilot {
+    margin-bottom: 2rem;
+  }
+  .tab-pane {
+    text-align: center;
+  }
+  .pilot_number {
+    font-size: 40px;
+    padding-right: 4rem;
+  }
+}
 .section__title {
   font-size: 38px;
   font-weight: 700;
@@ -505,27 +676,27 @@ input {
   letter-spacing: 2px;
 }
 
-.section-10__title,
-.section-8__title,
+.section-6__title,
 .section-7__title,
-.section-6__title {
+.section-8__title,
+.section-10__title {
   font-size: 38px;
   font-weight: 700;
   text-align: center;
   padding-bottom: 2rem;
 }
-.section-10__country,
-.section-8__country,
+.section-6__country,
 .section-7__country,
-.section-6__country {
+.section-8__country,
+.section-10__country {
   font-size: 18px;
   font-weight: 600;
   margin-top: 1rem;
 }
-.section-10__title3,
-.section-8__title3,
+.section-6__title3,
 .section-7__title3,
-.section-6__title3 {
+.section-8__title3,
+.section-10__title3 {
   font-size: 20px;
   font-weight: 700;
 }
@@ -552,8 +723,13 @@ input {
   align-items: center;
   width: 100%;
 }
+.navbar__lists_numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .navbar__lists_footer {
-  display: inline-flex;
   display: inline-flex;
   justify-content: space-evenly;
 }
@@ -565,6 +741,129 @@ input {
   padding: 1rem;
 }
 
+.media-header {
+  display: none;
+}
+
+.menu-button-container {
+  padding-right: 32px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #ffffff;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: "";
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: "";
+  margin-top: 8px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top: 0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: 0px;
+  transform: rotate(-405deg);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__lists {
+    display: none;
+  }
+  .media-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #menu-toggle {
+    display: none;
+  }
+  .menu-button-container {
+    display: flex;
+  }
+  .menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    margin-top: 50px;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    padding-top: 2rem;
+  }
+  #menu-toggle:not(:checked) ~ .menu li {
+    display: none;
+  }
+  #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  #menu-toggle:checked ~ .menu li {
+    border: none;
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .navbar__link_media {
+    transition: all 0.3s;
+    position: relative;
+    padding: 0.5rem;
+    text-decoration: none;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .navbar__link_media:hover {
+    text-decoration: none;
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+  .navbar__link_brd {
+    font-size: 12px;
+  }
+  .navbar__list_media {
+    padding: 1rem;
+    color: #0E0E0E;
+    align-items: center;
+  }
+  .navbar__lists_numbers {
+    display: block;
+  }
+  .navbar__track {
+    display: block;
+  }
+}
 .contact {
   margin: 0 auto;
   padding: 1rem;
@@ -626,6 +925,12 @@ input {
   display: inline-block;
 }
 
+@media screen and (max-width: 768px) {
+  .subject,
+  .help {
+    width: 93%;
+  }
+}
 .name__alfa {
   display: inline-block;
   position: relative;
@@ -1056,6 +1361,31 @@ input {
   text-shadow: 1px 1px #1C1C1E, 2px 2px #1C1C1E, 3px 3px #1C1C1E, 4px 4px #1C1C1E;
 }
 
+@media screen and (max-width: 768px) {
+  .name__alfa,
+  .name__alpha,
+  .name__alpine,
+  .name__aston,
+  .name__ferrari,
+  .name__haas,
+  .name__mc,
+  .name__red {
+    margin-top: 7rem;
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .name__mer {
+    margin-top: 7rem;
+    font-weight: 500;
+    font-size: 50px;
+  }
+  .name__williams {
+    margin-top: 7rem;
+    font-weight: 500;
+    font-size: 56px;
+  }
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -1197,10 +1527,6 @@ input {
   justify-content: space-around;
 }
 
-.section-5___left {
-  width: 50%;
-}
-
 .section__form,
 .section__plan,
 .section__game,
@@ -1211,12 +1537,12 @@ input {
   align-items: flex-start;
 }
 
-.section-8__block,
+.section-6__block,
 .section-7__block,
-.section-6__block {
+.section-8__block {
   background: #1C1C1E;
   border-radius: 25px;
-  width: 70%;
+  height: 100%;
   margin-right: 2rem;
   padding: 2rem;
 }
@@ -1532,6 +1858,60 @@ input {
   font-weight: 400;
 }
 
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
+  .section__block_left_description {
+    display: none;
+  }
+  .section__features, .section__reviews, .section__game, .section__plan, .section__form, .section__track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .section__track {
+    justify-content: flex-start;
+    background: #1C1C1E;
+    border-radius: 25px;
+    width: 100%;
+  }
+  .block__track_title, .block__track_title2, .block__track_date, .block__track_text {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .block__track_description {
+    width: 100%;
+  }
+  .section-2 {
+    margin-top: 5rem;
+  }
+  .section-3,
+  .section-4,
+  .section-5,
+  .section-6,
+  .section-7,
+  .section-8,
+  .section-10 {
+    display: block;
+  }
+  .section-6__block,
+  .section-7__block,
+  .section-8__block,
+  .section-10__block {
+    margin-bottom: 1.5rem;
+  }
+  .section-3_numbers_1 {
+    font-size: 44px;
+  }
+  .section-3_numbers {
+    font-size: 44px;
+  }
+  .section-3_numbers_alpha, .section-3_numbers_alpine, .section-3_numbers_aston, .section-3_numbers_ferrari, .section-3_numbers_haas, .section-3_numbers_mc, .section-3_numbers_red, .section-3_numbers_williams, .section-3_numbers_mer {
+    font-size: 44px;
+  }
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -1545,4 +1925,10 @@ input {
 }
 .footer__text_description {
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar__lists_footer {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

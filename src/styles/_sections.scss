@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: flex-start;
   }
-  
 
   &_left_description{
     font-family: $font-family;
@@ -33,7 +32,7 @@
     }
   }
 }}
-
+  
 .section-1{
   padding-top: $p-6;
   background: linear-gradient(180deg,#EB0000 27.72%,rgba(235,0,0,0) 97.5%);
@@ -148,10 +147,6 @@
   justify-content: space-around;
 }
 
-.section-5___left{
-  width: 50%;
-}
-
 .section__form,
 .section__plan,
 .section__game,
@@ -161,12 +156,13 @@
   align-items: flex-start;
 }
 
-.section-8__block,
+.section-6__block,
 .section-7__block,
-.section-6__block {
+.section-8__block {
   background: $color-box;
   border-radius: 25px;
-  width: 70%;
+
+  height: 100%;
 
   margin-right: $m-2;
   padding: $p-2;
@@ -541,8 +537,89 @@
       font-weight: $font-w-400;
     }
   }
+}
 
+@media screen and (max-width: 768px) {
+  .section{
+    padding: $p-1;
 
+    &__block_left_description{
+      display: none;
+    }
+
+    &__features,
+    &__reviews,
+    &__game,
+    &__plan,
+    &__form,
+    &__track {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: $p-1;
+    }
+
+    &__track{
+      justify-content: flex-start;
+      background: $color-box;
+      border-radius: 25px;
+      width: 100%;
+    }
+  }
+
+  .block__track{
+    &_title,
+    &_title2,
+    &_date,
+    &_text {
+      width: max-content;
+    }
+
+    &_description{
+      width: 100%;
+    } 
+  }
+
+  .section-2{
+    margin-top: $m-5;
+  }
+
+  .section-3,
+  .section-4,
+  .section-5,
+  .section-6,
+  .section-7,
+  .section-8,
+  .section-10{
+    display: block;
+  }
+
+  .section-6__block,
+  .section-7__block,
+  .section-8__block,
+  .section-10__block {
+    margin-bottom: $m-1-5;
+  }
+
+  .section-3_numbers_1{
+    font-size: $font-44;
+  }
+
+  .section-3_numbers{
+    font-size: $font-44;
+
+    &_alpha,
+    &_alpine,
+    &_aston,
+    &_ferrari,
+    &_haas,
+    &_mc,
+    &_red,
+    &_williams,
+    &_mer {
+      font-size: $font-44;
+    }
+  }
 }
 
 

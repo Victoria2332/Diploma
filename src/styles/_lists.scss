@@ -51,3 +51,29 @@
   padding-top: $p-1;
 }
 
+@media screen and (max-width: 768px) {
+  .section__accardion{
+    width: 100%;
+  }
+
+  .team__pilots{
+    display: block;
+  }
+
+  .team__pilot {
+    margin-bottom: $m-2;
+  }
+
+  .tab-pane{
+    text-align: center;
+  }
+
+  .pilot_number{
+    font-size: $font-40;
+
+    padding-right: $p-4;
+  }
+
+
+}
+

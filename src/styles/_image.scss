@@ -1,41 +1,62 @@
 
 .image__car{
+  
   box-shadow: 7px 5px 5px $color-ferrari;
+  width: 370px;
+  height:470px;
 
   &_alpha{
     box-shadow: 7px 5px 5px $color-alphatauri;
+    width: 370px;
+    height:470px;
   }
 
   &_alpine{
     box-shadow: 7px 5px 5px $color-alpine;
+    width: 370px;
+    height:470px;
   }
 
   &_aston{
     box-shadow: 7px 5px 5px $color-astonmartin;
+    width: 370px;
+    height:470px;
   }
 
   &_ferrari{
     box-shadow: 7px 5px 5px $color-ferrari;
+    width: 370px;
+    height:470px;
   }
 
   &_haas{
     box-shadow: 7px 5px 5px $color-haas;
+    width: 370px;
+    height:470px;
   }
 
   &_mc{
     box-shadow: 7px 5px 5px $color-mclaren;
+    width: 370px;
+    height:470px;
   }
 
   &_mer{
     box-shadow: 7px 5px 5px $color-alphatauri;
+    width: 370px;
+    height:470px;
   }
 
   &_red{
     box-shadow: 7px 5px 5px $color-redbull;
+    width: 370px;
+    height:470px;
   }
 
   &_williams{
     box-shadow: 7px 5px 5px $color-williams;
+    width: 370px;
+    height:470px;
   }
 }
 
@@ -51,6 +72,8 @@
 
 .image__pilot {
   box-shadow: 7px 5px 5px $color-box-nav;
+  width: 370px;
+  height: 400px;
 }
 
 .image__track {
@@ -60,91 +83,140 @@
 
   &_bahrain {
     box-shadow: 7px 5px 5px $color-ferrari;
+    width: 400px;
+    height: 350px;
   }
 
   &_arab {
     box-shadow: 7px 5px 5px $colot-limeGreen;
+    width: 400px;
+    height: 350px;
   }
 
   &_aus {
     box-shadow: 7px 5px 5px $color-mclaren;
+    width: 400px;
+    height: 350px;
   }
 
   &_azer {
     box-shadow: 7px 5px 5px $color-astonmartin;
+    width: 400px;
+    height: 350px;
   }
 
   &_mia {
     box-shadow: 7px 5px 5px $color-DarkBlue;
+    width: 400px;
+    height: 350px;
   }
 
   &_mon {
     box-shadow: 7px 5px 5px $color-alpharomeo;
+    width: 400px;
+    height: 350px;
   }
 
   &_span {
     box-shadow: 7px 5px 5px $color-ferrari;
+    width: 400px;
+    height: 350px;
   }
 
   &_can {
     box-shadow: 7px 5px 5px $color-alpharomeo;
+    width: 400px;
+    height: 350px;
   }
 
   &_aust {
     box-shadow: 7px 5px 5px $color-ferrari;
+    width: 400px;
+    height: 350px;
   }
 
   &_uk {
     box-shadow: 7px 5px 5px $color-redbull;
+    width: 400px;
+    height: 350px;
   }
 
   &_hun {
     box-shadow: 7px 5px 5px $color-dark-green-2;
+    width: 400px;
+    height: 350px;
   }
 
   &_bel {
     box-shadow: 7px 5px 5px $color-yellow;
+    width: 400px;
+    height: 350px;
   }
 
   &_neth {
     box-shadow: 7px 5px 5px $color-dark-orange;
+    width: 400px;
+    height: 350px;
   }
 
   &_it{
     box-shadow: 7px 5px 5px $colot-limeGreen;
+    width: 400px;
+    height: 350px;
   }
 
   &_sin{
     box-shadow: 7px 5px 5px $color-ferrari;
+    width: 400px;
+    height: 350px;
   }
 
   &_jap {
     box-shadow: 7px 5px 5px $color-alpharomeo;
+    width: 400px;
+    height: 350px;
   }
 
   &_qat {
     box-shadow: 7px 5px 5px $color-Crimson;
+    width: 400px;
+    height: 350px;
   }
 
   &_usa {
     box-shadow: 7px 5px 5px $color-redbull;
+    width: 400px;
+    height: 350px;
   }
 
   &_mex{
     box-shadow: 7px 5px 5px $color-astonmartin;
+    width: 400px;
+    height: 350px;
   }
 
   &_sao {
     box-shadow: 7px 5px 5px $colot-limeGreen;
+    width: 400px;
+    height: 350px;
   }
 
-  &_ {
+  &_abu {
     box-shadow: 7px 5px 5px $color-haas;
+    width: 400px;
+    height: 350px;
   }
 
   &_las {
     box-shadow: 7px 5px 5px $color-alpine;
+    width: 400px;
+    height: 350px;
   }
+}
+
+.image__gp {
+  width: 400px;
+  height: 350px;
 }
 
 @media (max-width: 360px) {
@@ -186,6 +258,182 @@
   .image2 {
     width: 130px;
     height: 50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image {
+    &__box {
+      display: none;
+
+      &_track{
+        margin-top: $m-5;
+        width: 350px;
+        height: 270px;
+      }
+    }
+
+    &__create {
+      display: none;
+    }
+
+    &__team {
+      display: none;
+    }
+
+    &__map {
+      display: none;
+    }
+
+    &__app{
+      display: none;
+    }
+
+    &__gp{
+      width: 350px;
+      height: 400px;
+    }
+
+    &__pilot {
+      width: 210px;
+      height: 240px;
+    }
+
+    &__car{
+      &_alpha{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_alpine{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_aston{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_ferrari{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_haas{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_mc{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_mer{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_red{
+        width: 100%;
+        height: 290px;
+      }
+
+      &_williams{
+        width: 100%;
+        height: 290px;
+      }
+      
+    }
+  }
+
+  .image__track_bahrain {
+    width: 100%; 
+  }
+
+  .image__track_arab {
+    width: 100%; 
+  }
+
+  .image__track_aus {
+    width: 100%; 
+  }
+
+  .image__track_azer {
+    width: 100%; 
+  }
+
+  .image__track_mia {
+    width: 100%; 
+  }
+
+  .image__track_mon {
+    width: 100%; 
+  }
+
+  .image__track_span {
+    width: 100%; 
+  }
+
+  .image__track_can {
+    width: 100%; 
+  }
+
+  .image__track_aust {
+    width: 100%; 
+  }
+
+  .image__track_uk {
+    width: 100%; 
+  }
+
+  .image__track_hun {
+    width: 100%; 
+  }
+
+  .image__track_bel {
+    width: 100%; 
+  }
+
+  .image__track_neth {
+    width: 100%; 
+  }
+
+  .image__track_it {
+    width: 100%; 
+  }
+
+  .image__track_sin {
+    width: 100%; 
+  }
+
+  .image__track_jap {
+    width: 100%; 
+  }
+
+   .image__track_qat {
+    width: 100%; 
+  }
+
+   .image__track_usa {
+    width: 100%; 
+  }
+
+   .image__track_mex {
+    width: 100%; 
+  }
+
+   .image__track_sao {
+    width: 100%; 
+  }
+
+   .image__track_las {
+    width: 100%; 
+  }
+
+   .image__track_abu {
+    width: 100%; 
   }
 }
 

@@ -657,3 +657,33 @@
     4px 4px $color-box;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .name__alfa,
+  .name__alpha,
+  .name__alpine,
+  .name__aston,
+  .name__ferrari,
+  .name__haas,
+  .name__mc,
+  .name__red{
+    margin-top: $m-7;
+    font-size: $font-60;
+    font-weight: $font-w-500;
+    text-align: center;
+  }
+  
+  .name__mer{
+    margin-top: $m-7;
+    
+    font-weight: $font-w-500;
+    font-size: $font-50;
+  }
+
+  .name__williams {
+    margin-top: $m-7;
+
+    font-weight: $font-w-500;
+    font-size: $font-56;
+  }
+}
