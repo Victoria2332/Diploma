@@ -13,10 +13,6 @@
   top: 100%
 }
 
-@mixin transform($a, $b) {
-  transform: translate($a, $b);
-}
-
 @mixin filter {
   filter:blur(3px);
 }

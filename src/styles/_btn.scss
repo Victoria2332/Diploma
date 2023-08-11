@@ -12,11 +12,34 @@
   text-align: center;
   letter-spacing: 1px;
 
-  font-size: $font-16;
-  font-weight: $font-w-600;
+  color: $color-white;
+  box-shadow: 0 8px 15px $color-box-nav;
+
+  &__swiper {
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: $m-1;
+  margin-top: $m-2;
+
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  letter-spacing: 1px;
 
   color: $color-white;
   box-shadow: 0 8px 15px $color-box-nav;
+
+    &:hover{
+    box-shadow: 0 5px 10px $color-box;
+    transform: translateY(3px);
+    cursor: pointer;
+    
+    text-decoration: none;
+    color: $color-white;
+    }
+  }
 
   &:hover {
     @include filter();
@@ -27,6 +50,10 @@
   }
 
   &__add {
+    &_swiper {
+      background: $color-box-nav;
+    }
+
     background: $color-haas;
   }
 

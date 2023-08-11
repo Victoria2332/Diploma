@@ -31,6 +31,7 @@
       font-weight:$font-w-700;
     }
   }
+
 }}
   
 .section-1{
@@ -156,6 +157,10 @@
   align-items: flex-start;
 }
 
+.section__reviews_news{
+  margin-top: $m-2;
+}
+
 .section-6__block,
 .section-7__block,
 .section-8__block {
@@ -165,6 +170,7 @@
   height: 100%;
 
   margin-right: $m-2;
+  margin-bottom: $m-1-5;
   padding: $p-2;
 }
 
@@ -424,19 +430,6 @@
 
   &_it {
     color: $colot-limeGreen;
-    font-size:$font-40;
-    font-weight: $font-w-700;
-    line-height: 20px;
-    letter-spacing: 2px;
-        
-    &_diff {
-      font-size:$font-24;
-      font-weight: $font-w-400;
-    }
-  }
-
-  &_ {
-    color: $color-dark-green-2;
     font-size:$font-40;
     font-weight: $font-w-700;
     line-height: 20px;

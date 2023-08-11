@@ -133,50 +133,100 @@ input {
   width: 370px;
   height: 470px;
 }
+.image__car:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #B22222;
+  cursor: pointer;
+}
 .image__car_alpha {
   box-shadow: 7px 5px 5px #87CEFA;
   width: 370px;
   height: 470px;
+}
+.image__car_alpha:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #00BFFF;
+  cursor: pointer;
 }
 .image__car_alpine {
   box-shadow: 7px 5px 5px #1E90FF;
   width: 370px;
   height: 470px;
 }
+.image__car_alpine:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #0000CD;
+  cursor: pointer;
+}
 .image__car_aston {
   box-shadow: 7px 5px 5px #3CB371;
   width: 370px;
   height: 470px;
+}
+.image__car_aston:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #2e762e;
+  cursor: pointer;
 }
 .image__car_ferrari {
   box-shadow: 7px 5px 5px #eb0000;
   width: 370px;
   height: 470px;
 }
+.image__car_ferrari:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #B22222;
+  cursor: pointer;
+}
 .image__car_haas {
   box-shadow: 7px 5px 5px #B22222;
   width: 370px;
   height: 470px;
+}
+.image__car_haas:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #B22222;
+  cursor: pointer;
 }
 .image__car_mc {
   box-shadow: 7px 5px 5px #FFD700;
   width: 370px;
   height: 470px;
 }
+.image__car_mc:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #FFA500;
+  cursor: pointer;
+}
 .image__car_mer {
-  box-shadow: 7px 5px 5px #87CEFA;
+  box-shadow: 7px 5px 5px #00CED1;
   width: 370px;
   height: 470px;
+}
+.image__car_mer:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #00CED1;
+  cursor: pointer;
 }
 .image__car_red {
   box-shadow: 7px 5px 5px #0000CD;
   width: 370px;
   height: 470px;
 }
+.image__car_red:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #00008B;
+  cursor: pointer;
+}
 .image__car_williams {
   box-shadow: 7px 5px 5px #00BFFF;
   width: 370px;
   height: 470px;
+}
+.image__car_williams:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #1E90FF;
+  cursor: pointer;
 }
 
 .image__team {
@@ -192,6 +242,10 @@ input {
   box-shadow: 7px 5px 5px #47474b;
   width: 370px;
   height: 400px;
+}
+.image__pilot:hover {
+  transform: translateY(6px);
+  cursor: pointer;
 }
 
 .image__track_abu {
@@ -311,6 +365,11 @@ input {
 .image__gp {
   width: 400px;
   height: 350px;
+}
+.image__gp:hover {
+  transform: translateY(-6px);
+  box-shadow: 7px 5px 5px #47474b;
+  cursor: pointer;
 }
 
 @media (max-width: 360px) {
@@ -481,6 +540,131 @@ input {
     width: 100%;
   }
 }
+.swiper {
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.swiper-slide {
+  width: 18.75rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.swiper-slide h2 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  padding: 0 0 0 1.5rem;
+  text-transform: uppercase;
+}
+
+.swiper-slide p {
+  color: rgba(239, 232, 232, 0.9333333333);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 0 1.5rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1;
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1690716859/trackside-images/2023/F1_Grand_Prix_of_Belgium/1580518958.jpg.transform/9col/image.jpg") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1691663184/fom-website/2023/August%20Break/3%20wide%20diagonal%20header%20best%20cars.jpg.transform/9col/image.jpg") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1679574032/GettyImages-1247765054.jpg.transform/9col/image.jpg") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://media.formula1.com/image/upload/t_16by9North/f_auto/q_auto/v1691569874/fom-website/2023/Williams/GettyImages-1258814842.jpg.transform/9col/image.jpg") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1691399792/fom-website/2023/Mercedes/GettyImages-1244110668.jpg.transform/9col/image.jpg") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://cdn.racingnews365.com/_975xAUTO_fit_center-center_85_none/59120/Pirelli-Pole-Position-Award-2019-Monaco-Grand-Prix.webp?v=1646384814") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://cdn.racingnews365.com/2023/_1125x633_crop_center-center_85_none/10658329/SI202307300382_hires_jpeg_24bit_rgb-1.webp?v=1690741771") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://cdn.racingnews365.com/_1125x633_crop_center-center_85_none/7282158/XPB_1155096_HiRes.webp?v=1669380133") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--nine {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://cdn.racingnews365.com/2023/_1125x633_crop_center-center_85_none/10656670/W14-REVISED-SIDEPODS-BEL.webp?v=1690707196") no-repeat 50% 50%/cover;
+}
+
+.swiper-slide--ten {
+  background: linear-gradient(to top, #0f2027, rgba(32, 58, 67, 0), rgba(44, 83, 100, 0)), url("https://cdn.racingnews365.com/2023/Hamilton/_1125x633_crop_center-center_85_none/10564431/XPB_1224523_HiRes.webp?v=1690096867") no-repeat 50% 50%/cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 85%;
+  }
+}
+.modal {
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+.modal-body {
+  background: rgba(239, 232, 232, 0.9333333333);
+  font-weight: 400;
+}
+.modal-body span {
+  color: #eb0000;
+  font-weight: 500;
+}
+.modal-header {
+  background: #B22222;
+  border-bottom: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.close {
+  text-shadow: none;
+  opacity: 1;
+}
+
 .dropdown-item:hover {
   border-radius: 2px 11%;
   background: #B22222;
@@ -500,10 +684,29 @@ input {
   border-radius: 45px;
   text-align: center;
   letter-spacing: 1px;
-  font-size: 16px;
-  font-weight: 600;
   color: #ffffff;
   box-shadow: 0 8px 15px #47474b;
+}
+.btns__swiper {
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  margin: 1rem;
+  margin-top: 2rem;
+  text-decoration: none;
+  line-height: 45px;
+  border-radius: 45px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  box-shadow: 0 8px 15px #47474b;
+}
+.btns__swiper:hover {
+  box-shadow: 0 5px 10px #1C1C1E;
+  transform: translateY(3px);
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
 }
 .btns:hover {
   filter: blur(3px);
@@ -513,6 +716,9 @@ input {
 }
 .btns__add {
   background: #B22222;
+}
+.btns__add_swiper {
+  background: #47474b;
 }
 .btns__up {
   position: fixed;
@@ -1537,6 +1743,10 @@ input {
   align-items: flex-start;
 }
 
+.section__reviews_news {
+  margin-top: 2rem;
+}
+
 .section-6__block,
 .section-7__block,
 .section-8__block {
@@ -1544,6 +1754,7 @@ input {
   border-radius: 25px;
   height: 100%;
   margin-right: 2rem;
+  margin-bottom: 1.5rem;
   padding: 2rem;
 }
 
@@ -1766,17 +1977,6 @@ input {
   letter-spacing: 2px;
 }
 .block__text_it_diff {
-  font-size: 24px;
-  font-weight: 400;
-}
-.block__text_ {
-  color: #2e762e;
-  font-size: 40px;
-  font-weight: 700;
-  line-height: 20px;
-  letter-spacing: 2px;
-}
-.block__text__diff {
   font-size: 24px;
   font-weight: 400;
 }

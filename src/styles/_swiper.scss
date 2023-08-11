@@ -1,0 +1,122 @@
+.swiper {
+  width: 100%;
+  margin-top: $m-3;
+}
+
+.swiper-slide {
+  width: 18.75rem;
+  height: 28.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.swiper-slide h2 {
+  color: $color-white;
+  font-family: $font-family;
+  font-weight: $font-w-700;
+  font-size: $font-20;
+  line-height: 1.4;
+
+  margin-bottom: $m-0-5;
+  padding: 0 0 0 $p-1-5;
+
+  text-transform: uppercase;
+}
+
+.swiper-slide p {
+  color: $color-gray;
+  font-family: $font-family;
+  font-weight: $font-w-600;
+  line-height: 1.6;
+  font-size: $font-16;
+
+  padding: 0 $p-1-5;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.swiper-slide div {
+  display: none;
+  opacity: 0;
+}
+
+.swiper-slide-active div {
+  display: block;
+  opacity: 1; 
+}
+
+.swiper-slide--one {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1690716859/trackside-images/2023/F1_Grand_Prix_of_Belgium/1580518958.jpg.transform/9col/image.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--two {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1691663184/fom-website/2023/August%20Break/3%20wide%20diagonal%20header%20best%20cars.jpg.transform/9col/image.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--three {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1679574032/GettyImages-1247765054.jpg.transform/9col/image.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--four {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://media.formula1.com/image/upload/t_16by9North/f_auto/q_auto/v1691569874/fom-website/2023/Williams/GettyImages-1258814842.jpg.transform/9col/image.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--five {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://media.formula1.com/image/upload/t_16by9Centre/f_auto/q_auto/v1691399792/fom-website/2023/Mercedes/GettyImages-1244110668.jpg.transform/9col/image.jpg")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--six {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://cdn.racingnews365.com/_975xAUTO_fit_center-center_85_none/59120/Pirelli-Pole-Position-Award-2019-Monaco-Grand-Prix.webp?v=1646384814")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--seven {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://cdn.racingnews365.com/2023/_1125x633_crop_center-center_85_none/10658329/SI202307300382_hires_jpeg_24bit_rgb-1.webp?v=1690741771")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--eight {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://cdn.racingnews365.com/_1125x633_crop_center-center_85_none/7282158/XPB_1155096_HiRes.webp?v=1669380133")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--nine {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://cdn.racingnews365.com/2023/_1125x633_crop_center-center_85_none/10656670/W14-REVISED-SIDEPODS-BEL.webp?v=1690707196")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-slide--ten {
+  background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+    url("https://cdn.racingnews365.com/2023/Hamilton/_1125x633_crop_center-center_85_none/10564431/XPB_1224523_HiRes.webp?v=1690096867")
+      no-repeat 50% 50% / cover;
+}
+
+.swiper-3d .swiper-slide-shadow-left,
+.swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .swiper {
+    width: 85%;
+  }
+}

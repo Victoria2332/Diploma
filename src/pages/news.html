@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Box | Tracks </title>
+
+    <!-- !Icon -->
+    <link rel="shortcut icon" href="/src/img/icons/Box Box Logo.svg" type="image/x-icon">
+
+    <!-- !Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- !Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous"/>
+    
+    <!-- !Swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="/src/styles/css/main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/src/img/icons/Box Box Logo.svg" alt="logo" width="70" height="70">
+      </div>
+        
+      <nav class="navbar">
+        <ul class="navbar__lists">
+          <li class="navbar__list"><a href="/src/index.html" class="navbar__link">Home</a></li>
+          <li class="navbar__list">
+            <div class="dropdown">
+              <a class="navbar__link_brd dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                Teams
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#"></a>
+                <a class="dropdown-item" href="./teams/Alfa Romeo.html">Alfa Romeo</a>
+                <a class="dropdown-item" href="./teams/Alpha Tauri.html">Alpha Tauri</a>
+                <a class="dropdown-item" href="./teams/Alpine.html">Alpine</a>
+                <a class="dropdown-item" href="./teams/Aston Martin.html">Aston Martin</a>
+                <a class="dropdown-item" href="./teams/Ferrari.html">Ferrari</a>
+                <a class="dropdown-item" href="./teams/Haas.html">Haas</a>
+                <a class="dropdown-item" href="./teams/McLaren.html">McLaren</a>
+                <a class="dropdown-item" href="./teams/Mercedes.html">Mercedes</a>
+                <a class="dropdown-item" href="./teams/Red Bull.html">Red Bull</a>
+                <a class="dropdown-item" href="./teams/Williams.html">Williams</a>
+              </div>
+            </div>
+          </li>
+          <li class="navbar__list"><a href="./tracks.html" class="navbar__link">Tracks</a></li>
+          <li class="navbar__list"><a href="./news.html" class="navbar__link">News</a></li> 
+          <li class="navbar__list"><a href="./champions.html" class="navbar__link">Champions</a></li> 
+
+          <li class="navbar__list"><a href="#" class="nabvar__link"><img src="/src/img/icons/facebook.svg" alt="social"></a></li>
+          <li class="navbar__list"><a href="https://twitter.com/BoxBox_Club" class="nabvar__link"><img src="/src/img/icons/twitter.svg" alt="social"></a></li>
+          <li class="navbar__list"><a href="https://www.instagram.com/boxbox_club/" class="nabvar__link"><img src="/src/img/icons/instagram (2).svg" alt="social" width="29" height="23"></a></li>
+        </ul>
+      </nav>
+
+      <div class="media-header">          
+        <div class="hamburger">
+          <input id="menu-toggle" type="checkbox">
+    
+          <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+    
+          <ul class="menu">
+            <li class="navbar__list_media"><a href="../index.html" class="navbar__link_media">Home</a></li>
+            <li class="navbar__list_media">
+              <div class="dropdown">
+                <a class="navbar__link_brd dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                  Teams
+                </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"></a>
+                  <a class="dropdown-item" href="./teams/Alfa Romeo.html">Alfa Romeo</a>
+                  <a class="dropdown-item" href="./teams/Alpha Tauri.html">Alpha Tauri</a>
+                  <a class="dropdown-item" href="./teams/Alpine.html">Alpine</a>
+                  <a class="dropdown-item" href="./teams/Aston Martin.html">Aston Martin</a>
+                  <a class="dropdown-item" href="./teams/Ferrari.html">Ferrari</a>
+                  <a class="dropdown-item" href="./teams/Haas.html">Haas</a>
+                  <a class="dropdown-item" href="./teams/McLaren.html">McLaren</a>
+                  <a class="dropdown-item" href="./teams/Mercedes.html">Mercedes</a>
+                  <a class="dropdown-item" href="./teams/Red Bull.html">Red Bull</a>
+                  <a class="dropdown-item" href="./teams/Williams.html">Williams</a>
+                </div>
+              </div>
+            </li>
+            <li class="navbar__list_media"><a href="./tracks.html" class="navbar__link_media">Tracks</a></li>
+            <li class="navbar__list_media"><a href="./news.html" class="navbar__link_media">News</a></li> 
+            <li class="navbar__list_media"><a href="./champions.html" class="navbar__link_media">Champions</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+      <section class="section section-1">
+        <div class="section__block">
+          <div class="section__block_left">
+            <img src="/src/img/icons/create.svg" alt="create" class="image__create">
+            <h3 class="section__block_left_description">YOUR OWN RACING <span class="section__block_left_description_exp">EXPERIENCE</span></h3>
+            <ul class="navbar__lists">
+            <li class="navbar__list"><a href="https://apps.apple.com/app/box-box-club/id1621241916"><img src="/src/img/icons/app-store-button.svg" alt="app" class="image2"></a></li>
+            <li class="navbar__list"><a href="https://play.google.com/store/apps/details?id=club.boxbox.android"><img src="/src/img/icons/play-store-button.svg" alt="google" class="image2"></a></li></ul>
+          </div>
+        
+          <div class="section__block_right">
+            <img src="/src/img/Box Box.png" alt="" width="450px" height="371px" class="image__box_track">
+            </div>
+          </div>
+      </section>   
+
+      <section class="section section-2">
+        <div class="section__welcome">
+          <h1 class="section__title">F1 News</h1>
+          <p class="section__description">
+            Don't miss a Formula 1 moment – with the latest news, videos, standings and results. Go behind the scenes and get analysis straight from the paddock.
+          <br><br>
+          Follow F1 live with breaking news, exclusive interviews and in-depth videos & analysis. We bring you news from all over the world, including the latest on drivers such as Lewis Hamilton, Max Verstappen, Fernando Alonso and Charles Leclerc.<br><br></p>
+        </div>
+      </section>
+
+    <main class="main">
+      <section class="section section-4">
+        <div class="section__numbers">
+          <ul class="navbar__lists">
+            <li class="navbar__list">
+              <img src="../img/news/news1.PNG" alt="car" width="370px" height="470px" class="image__car">
+            </li>
+            <li class="navbar__list">
+              <img src="../img/news/news2.PNG" alt="car" width="370px" height="470px" class="image__car">
+            </li>
+            <li class="navbar__list">
+              <img src="../img/news/news3.PNG" alt="car" width="370px" height="470px" class="image__car">
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section swiper">
+        <div class="block__swiper">
+          <h1 class="section__title" style="border-bottom: 2px solid #FF0000">Latest F1 News
+          </h1>  
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--one">
+                <div>
+                  <h2>Webber heaps praise on Piastri for ‘phenomenal’ first half of rookie F1 season</h2>
+                  <p>Oscar Piastri’s manager, ex-F1 driver Mark Webber, has declared that “we’re all very proud” of the McLaren rookie for making a “phenomenal, phenomenal” start to his career in the sport.</p>  
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter">Read more</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide--two">
+                <div>
+                  <h2>6 times the best F1 drivers and best cars combined to produce relentless brilliance</h2>
+                  <p>
+                    Max Verstappen is in the midst of what will surely be one of the most dominant seasons in Formula 1 history. He’s won 10 out of 12 grands prix so far and will add many more to the tally in the second half of the year, perhaps enough to break the record he set last year of 15 victories in a season.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter2">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--three">
+                <div>
+                  <h2>Alunni Bravi sets out main priority for Key when he joins Alfa Romeo technical team next month
+                  </h2>
+                  <p>
+                    James Key is set to start his new role as Technical Director at Alfa Romeo in September. Ahead of his first day on the job, Team Representative Alessandro Alunni Bravi has revealed what Key's first order of priority will be once he arrives.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter3">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--four">
+                <div>
+                  <h2>Robson highlights areas 'very skilful' Albon has improved upon this season
+                  </h2>
+                  <p>
+                    Alex Albon’s performances this year have impressed many, including Williams’ Head of Vehicle Performance Dave Robson, who offered an insight into where he believes the Thai driver has developed the most since joining the team last season.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter4">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--five">
+                <div>
+                  <h2>Mercedes share latest sustainability report highlighting key improvements
+                  </h2>
+                  <p>
+                    Mercedes have become the latest team to release their annual sustainability report, as the eight-time world champions revealed the improvements they have made within their organisation and their plans for the future.
+                    </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter5">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-6">
+        <h1 class="section__title" style="border-bottom: 2px solid #FF0000">Driver Market
+        </h1>  
+        <div class="section__reviews_news">  
+          <div class="section-6__block news">
+            <h3 class="section-6__title3">Horner praises ‘extremely competitive’ testing showing from Ricciardo ahead of AlphaTauri loan
+            </h3>
+            <p class="section-6__description">Red Bull Team Principal Christian Horner has praised the efforts behind the wheel of Daniel Ricciardo, after the Australian lapped for the team at a Silverstone Pirelli test on Tuesday – before a shock call up to AlphaTauri later in the day. 
+            </p>
+            <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter6">Read more</a>
+          </div>
+
+          <div class="section-6__block">
+            <h3 class="section-6__title3">Fred Vasseur claims Ferrari has mapped out a treasure trove of developments set to catapult the team ahead
+            </h3>
+            <p class="section-6__description">The 2023 F1 season has been tumultuous for Ferrari, plagued by disappointments and missed chances. But what lies ahead in the second half of the season could reshape their fortunes dramatically. The team principal, Fred Vasseur, promises that the Maranello squad has drawn out their blueprint for the second half that will boost the team’s pace by nearly a double and close the gap to Red Bull. 
+            </p>
+            <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter7">Read more</a>
+          </div>
+
+          <div class="section-6__block">
+            <h3 class="section-6__title3">Sacked AlphaTauri driver Nyck de Vries set to follow Nicholas Latifi’s path amidst uncertainty over his racing career
+            </h3>
+            <p class="section-6__description">Nyck de Vries, the former AlphaTauri F1 driver, was dismissed by his team and Red Bull after ten races into the 2023 season as they were not pleased with his performance. The Dutchman and Williams Racing rookie Logan Sargeant were the only drivers who failed to secure points. Following this shocking move, the team announced that former F1 driver Daniel Ricciardo would take his seat with immediate effect. 
+            </p>
+            <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter8">Read more</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section swiper">
+        <div class="block__swiper">
+          <h1 class="section__title" style="border-bottom: 2px solid #FF0000">Analysis</h1>
+          
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--six">
+                <div>
+                  <h2>OPINION: Why Sir Jackie Stewart is the greatest F1 driver of all time
+                  </h2>
+                  <p>
+                    The three-time World Champion, in Jake Nichol's opinion, is the greatest Formula 1 driver of all time. Here's why.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter9">Read more</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide--seven">
+                <div>
+                  <h2>The traits needed to be considered F1's 'GOAT'</h2>
+                  <p>
+                    It's an age-old question that will forever divide, but what exactly does a driver need to be considered F1's 'Greatest of All Time?'
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter10">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--eight">
+                <div>
+                  <h2>OPINION: Binotto would be wise to steer clear of Alpine omnishambles
+                  </h2>
+                  <p>
+                    The ex-Ferrari boss has been tipped as a potential replacement for Otmar Szafnauer at Alpine, but would be wise to avoid.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter11">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--nine">
+                <div>
+                  <h2>Mercedes join Ferrari with 'Frankenstein' development </h2>
+                  <p>
+                    Technical Analyst Paolo Filisetti takes a deep dive on Mercedes' Belgian GP upgrade.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter12">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--ten">
+                <div>
+                  <h2>Winners and Losers from 2023 F1 Hungarian Grand Prix Qualifying
+                  </h2>
+                  <p>
+                    Who has made the Winners and Losers from Qualifying for the 2023 Hungarian Grand Prix?
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter13">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="section section-9">
+        <div class="section__banner">
+          <img src="/src/img/banner.png" alt="banner" width="100%" >
+        </div>
+      </section>
+
+      <section class="section section-10">
+        <h1 class="section-10__title">We'd Love to Hear from You
+        </h1>
+
+        <div class="section__form">
+          <div class="section-10__block_left">
+            <form class="contact">
+              <ul class="navbar__lists_form">
+                <li class="navbar__list_form">
+                  <input type="text" class="field" placeholder="Name">  
+                </li>
+
+                <li class="navbar__list_form">
+                  <input type="email" class="field" placeholder="Email"> <br> 
+                </li>
+              </ul>
+                
+              <textarea required cols="30" rows="10" placeholder="Subject" class="subject"></textarea>  <br>  
+              <textarea required cols="30" rows="10" placeholder="How can we help you?" class="help"></textarea> 
+   
+              <input type="submit" class="btn btn_add">
+            </form>
+          </div>
+
+          <div class="section-10__block_right">
+            <img src="/src/img/map.png" alt="map" class="image__map" width="570" height="350">
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <footer class="footer">
+        <nav class="navbar">
+          <ul class="navbar__lists_footer">
+            <li class="navbar__list"><p class="footer__text_description">© Arkade Club Pvt. Ltd.</p></li>
+           
+            <li class="navbar__list"><a href="mailto:boxbox@gmail.com" class="navbar__link_footer">Contact Us</a></li>
+
+            <li class="navbar__list"><img src="/src/img/icons/no1@2x.svg" alt="" srcset=""></a></li>
+            <li class="navbar__list"><a href="https://apps.apple.com/app/box-box-club/id1621241916"><img src="/src/img/icons/appstore@2x.svg" alt="app"></a></li>
+            <li class="navbar__list"><a href="https://play.google.com/store/apps/details?id=club.boxbox.android"><img src="/src/img/icons/googleplay@2x.svg" alt="google"></a></li>
+
+            <li class="navbar__list"><a href="#" class="nabvar__link"><img src="/src/img/icons/facebook.svg" alt="social"></a></li>
+            <li class="navbar__list"><a href="https://twitter.com/BoxBox_Club" class="nabvar__link"><img src="/src/img/icons/twitter.svg" alt="social"></a></li>
+            <li class="navbar__list"><a href="https://www.instagram.com/boxbox_club/" class="nabvar__link"><img src="/src/img/icons/instagram (2).svg" alt="social" width="29" height="23"></a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Webber heaps praise on Piastri for ‘phenomenal’ first half of rookie F1 season</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Piastri debuted with McLaren in 2023 after a high-profile contract dispute involving the Woking squad and rivals Alpine – which he previously represented as a reserve driver – last summer. <br> <br>
+
+              <span>Having spent 2022 on the sidelines off the back of successive F3 and F2 titles, Piastri was thrust back into the limelight alongside the established Lando Norris – McLaren team boss Zak Brown admitting that there would be some “race rustiness” to shake off.</span> <br> <br>
+                
+              But the 22-year-old has excelled so far, taking his first points in his third Grand Prix on home soil in Australia, and joining Norris in the fight at the front of the field in Britain and Hungary amid a flurry of developments for McLaren’s MCL60 package.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">6 times the best F1 drivers and best cars combined to produce relentless brilliance</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">The combination of Verstappen and the Red Bull RB19 has been unbeatable for most of the season, with only team-mate Sergio Perez able to interrupt that winning run. It’s a classic case of the best driver and car combining to produce spectacular dominance. <br><br>
+
+                <span>READ MORE: Our writers look back on 2023 so far and predict what's to come in the second half of the season</span><br><br>
+                
+                But this is far from the first time in F1 history that such a combination has won race after race.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Alunni Bravi sets out main priority for Key when he joins Alfa Romeo technical team next month</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Key – who previously worked at the team as a Technical Director when they were Sauber from 2010 to 2012 – left McLaren in May, before it was announced that he would be replacing Jan Monchaux at Alfa Romeo, in a move the team described as “a statement of intent”. <br> <br>
+
+                <span>READ MORE: Our writers look back on 2023 so far and predict what's to come in the second half of the season</span><br> <br>
+                
+                Key is set to get started in the role on September 1, 2023, with the goal of improving their current car, the C43, as they battle for seventh in the constructors’ standings, while also readying themselves for Audi’s arrival into the sport in 2026.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Robson highlights areas 'very skilful' Albon has improved upon this season</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">After a year as Red Bull's reserve driver, Albon joined Williams in 2022 and his performances this season – which include his P7 finish in Montreal and coming home in eighth place at Silverstone – have earned rave reviews. <br><br>
+
+                <span>LIGHTS TO FLAG: Rubens Barrichello on Schumacher, Ferrari, the Brawn adventure – and his racing exploits after F1</span> <br><br>
+                
+                When asked about Albon – who has scored all of Williams’ 11 points this year and currently sits 13th in the drivers’ standings – Robson was full of praise for his performances, sharing an example of when the Thai racer’s "calmness" helped the team this season.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Mercedes share latest sustainability report highlighting key improvements</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Mercedes revealed they have made a 21% reduction since 2022 in their air travel emissions – saving 2,600 tonnes of C02. This has been aided by pioneering book and claim and investment into Sustainable Aviation Fuel. <br><br>
+
+                <span>Some other improvements made by Mercedes include 98% of waste diverted from landfill to energy recovery and recycling, and a reduction of gas emissions by 13%, as they make the move towards full electrification.</span> <br><br>
+                
+                Lastly, they have made an 88% reduction in emissions through a biofuel freight trial which has been used throughout the European portion of the 2023 calendar, having previously targeted over a 60% reduction in emissions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Horner praises ‘extremely competitive’ testing showing from Ricciardo ahead of AlphaTauri loan
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Ricciardo had been scheduled to drive in the Pirelli test heading into the Silverstone weekend as part of his third driver duties for Red Bull Racing – with sources revealing to F1.com that the Australian clocked times that would have put him on the front row of the grid for last weekend’s British Grand Prix.                <br><br>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/7gUVohAod5s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <span>But events escalated later in the day when AlphaTauri confirmed that Ricciardo would replace Nyck de Vries at the team from the upcoming Hungarian Grand Prix onwards, on loan from Red Bull – with Horner confident that Ricciardo was still as fast as ever behind the wheel despite several months out of the cockpit.
+              </span> <br><br>
+                
+              “It was great to see Daniel hasn’t lost any form while away from racing,” said Horner, “and that the strides he has been making in his sim sessions translate on track.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Fred Vasseur claims Ferrari has mapped out a treasure trove of developments set to catapult the team ahead
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Ferrari’s journey through 2023 has been a roller-coaster ride, marked by lackluster performances, reliability glitches, team-wide blunders, and driver mishaps. The team’s aspiration for wins and titles faced stumbling blocks. This season’s challenges led to a scarcity of points and an unexpected podium drought, with just three podiums in twelve races, all by the hands of Charles Leclerc. <br><br>
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/bgb9oc5MTss" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <span>“We have a development plan which tells us that our car will be two tenths faster in September, another two in October, another four in 2024,” declared Fred Vasseur.
+              </span> <br><br>
+                
+              His assertion highlights the team’s development stages have been meticulously laid out. The timeline signifies not just a leap in performance but their opportunity to challenge Max Verstappen and Red Bull in the near future.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Sacked AlphaTauri driver Nyck de Vries set to follow Nicholas Latifi’s path amidst uncertainty over his racing career
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Though Nyck de Vries’s racing career remains uncertain, he has revealed his plans for the future. The Formula E World champion plans to study at Harvard. He explained that he did not finish high school.
+                <br><br> 
+
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/z88GfGEZCEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+              <span>He said, “I’ve never studied before in my life, in fact, I didn’t even finish high school. But in September I’m going to take a course at Harvard, Negotiation and Leadership, a little bit of studying. More because I just like it now that I have some time and the interest to learn other things.”  </span> <br><br>
+                
+              Hence, De Vries wants to take a course at Harvard and is looking forward to it. It is safe to say he is following the path of Ex-Williams driver Nicholas Latifi who announced his decision to take a break from his racing career and signed up for an MBA course at London Business School. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter9" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">OPINION: Why Sir Jackie Stewart is the greatest F1 driver of all time
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">There's a distinction to be made between the greatest Formula 1 driver of all time, and the greatest racing driver of all time.
+              <br><br> 
+
+              <span>They are not mutually exclusive as the greatest racing driver of them all is something vastly different to the title of 'F1 GOAT.'
+              </span> <br><br>
+                
+              From Sir Stirling Moss and Mario Andretti getting in pretty much anything with four wheels and winning in it to Graham Hill, the only man to date to have won the famed Triple Crown of Motorsport, it is a debate that will go on and on in pubs and between friends, exulting the virtues of whoever you believe to be the best racing driver.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter10" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">The traits needed to be considered F1's 'GOAT'
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Ask a group of ten different people who Formula 1's Greatest Driver of All Time is, and the chances are there will be ten different answers.
+                <br><br> 
+
+              <span>It is a uniquely personal thing for someone with a variety of factors all playing into the decision.
+              </span> <br><br>
+                
+              Perhaps you saw the driver you think is the 'GOAT' win a championship in person or were present for their most memorable drive. Maybe they are the national hero of your country or possibly it is an emotional thing where the way they made you feel when they raced connected.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter11" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">OPINION: Binotto would be wise to steer clear of Alpine omnishambles
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">The first mistake made by Renault upon its return to Formula 1 in 2016 was to commit to winning the World Championship in one of those five-year plans the suits tend to like.
+                <br><br> 
+
+              <span>That immediately puts a hard deadline in place with tangible progress needing to be evidenced year-upon-year for any chance of meeting the goal. </span> <br><br>
+                
+              By the end of 2020 and the expiration of that original five-year plan, all the team had to show for its efforts was a couple of podiums picked up by a Daniel Ricciardo who had elected to jump the good ship Enstone before COVID-19 delayed the season start.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter12" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Mercedes join Ferrari with 'Frankenstein' development
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Mercedes brought a heavily modified W14 to Belgium with a new sidepod design.
+                <br><br> 
+
+              <span>Although the Brackley-based team has long declared through the words of Team Prinicpal Toto Wolff that attention is now directed towards the concept of the 2024 car, the development of the current challenger has not yet finished.
+              </span> <br><br>
+                
+              It should be emphasized that this is not a development with the intention of further increasing the performance of this car - which various signs indicate is now paused - but to gradually understand in which direction to invest in the concept of next season's car. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter13" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Winners and Losers from 2023 F1 Hungarian Grand Prix Qualifying
+              </h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">It's been far from a conventional weekend at the Formula 1 Hungarian Grand Prix.
+                <br><br>
+
+              <span>First there was the unusual Friday with Free Practice 1 an effective washout and teams trying to save tyres in the afternoon session, meaning the usual true Free Practice 2 picture did not emerge. </span> <br><br>
+                
+              Heading into Qualifying, it was still fuzzy, with big names George Russell and Carlos Sainz failing to make Q3 as new tyre rules came into force mandating Hards in Q1, Mediums in Q2 and Softs in Q3.
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- !Swiper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/src/js/swiper.js"></script>
+    <script src="/src/js/dropdown.js"></script>
+    <script src="/src/js/modal.js"></script>
+    <!-- <script src="/src/js/scroll.js"></script> -->
+  </body>
+</html>

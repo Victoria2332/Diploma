@@ -1,0 +1,30 @@
+.modal {
+  backdrop-filter: blur(4px);
+  
+  font-family: $font-family;
+  font-size: $font-15;
+  line-height: 25px;
+  letter-spacing: 1px;
+
+  &-body{
+    background: $color-gray;
+    font-weight: $font-w-400;
+
+    span{
+      color: $color-ferrari;
+      font-weight: $font-w-500;
+    }
+  }
+
+  &-header{
+    background: $color-haas;
+    border-bottom: none;
+    color: $color-white;
+    font-weight: $font-w-700;
+  }
+}
+
+.close{
+  text-shadow: none;
+  opacity: 1;
+}

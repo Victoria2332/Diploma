@@ -1,62 +1,121 @@
-
-.image__car{
-  
+.image__car {
   box-shadow: 7px 5px 5px $color-ferrari;
   width: 370px;
   height:470px;
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 10px 10px 10px $color-haas;
+    cursor: pointer;
+  }
 
   &_alpha{
     box-shadow: 7px 5px 5px $color-alphatauri;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-williams;
+      cursor: pointer;
+    }
   }
+  
 
   &_alpine{
     box-shadow: 7px 5px 5px $color-alpine;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-redbull;
+      cursor: pointer;
+    }
   }
 
   &_aston{
     box-shadow: 7px 5px 5px $color-astonmartin;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-dark-green-2;
+      cursor: pointer;
+    }
   }
 
   &_ferrari{
     box-shadow: 7px 5px 5px $color-ferrari;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-haas;
+      cursor: pointer;
+    }
   }
 
   &_haas{
     box-shadow: 7px 5px 5px $color-haas;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-haas;
+      cursor: pointer;
+    }
   }
 
   &_mc{
     box-shadow: 7px 5px 5px $color-mclaren;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-orange;
+      cursor: pointer;
+    }
   }
 
   &_mer{
-    box-shadow: 7px 5px 5px $color-alphatauri;
+    box-shadow: 7px 5px 5px $color-mersedes;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-mersedes;
+      cursor: pointer;
+    }
   }
 
   &_red{
     box-shadow: 7px 5px 5px $color-redbull;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-DarkBlue;
+      cursor: pointer;
+    }
   }
 
-  &_williams{
+  &_williams {
     box-shadow: 7px 5px 5px $color-williams;
     width: 370px;
     height:470px;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 10px $color-alpine;
+      cursor: pointer;
+    }
   }
 }
 
@@ -74,9 +133,15 @@
   box-shadow: 7px 5px 5px $color-box-nav;
   width: 370px;
   height: 400px;
+
+  &:hover {
+    transform: translateY(6px);
+    cursor: pointer;
+  }
 }
 
 .image__track {
+  
   &_abu{
      box-shadow: 7px 5px 5px $colot-limeGreen;
   }
@@ -217,6 +282,12 @@
 .image__gp {
   width: 400px;
   height: 350px;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 7px 5px 5px $color-box-nav;
+    cursor: pointer;
+  }
 }
 
 @media (max-width: 360px) {
