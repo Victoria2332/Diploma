@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Box | Tracks </title>
+
+    <!-- !Icon -->
+    <link rel="shortcut icon" href="/src/img/icons/Box Box Logo.svg" type="image/x-icon">
+
+    <!-- !Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!-- !Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"crossorigin="anonymous"/>
+    
+    <!-- !Swiper slider -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="/src/styles/css/main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <img src="/src/img/icons/Box Box Logo.svg" alt="logo" width="70" height="70">
+      </div>
+        
+      <nav class="navbar">
+        <ul class="navbar__lists">
+          <li class="navbar__list"><a href="/src/index.html" class="navbar__link">Home</a></li>
+          <li class="navbar__list">
+            <div class="dropdown">
+              <a class="navbar__link_brd dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                Teams
+              </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="#"></a>
+                <a class="dropdown-item" href="./teams/Alfa Romeo.html">Alfa Romeo</a>
+                <a class="dropdown-item" href="./teams/Alpha Tauri.html">Alpha Tauri</a>
+                <a class="dropdown-item" href="./teams/Alpine.html">Alpine</a>
+                <a class="dropdown-item" href="./teams/Aston Martin.html">Aston Martin</a>
+                <a class="dropdown-item" href="./teams/Ferrari.html">Ferrari</a>
+                <a class="dropdown-item" href="./teams/Haas.html">Haas</a>
+                <a class="dropdown-item" href="./teams/McLaren.html">McLaren</a>
+                <a class="dropdown-item" href="./teams/Mercedes.html">Mercedes</a>
+                <a class="dropdown-item" href="./teams/Red Bull.html">Red Bull</a>
+                <a class="dropdown-item" href="./teams/Williams.html">Williams</a>
+              </div>
+            </div>
+          </li>
+          <li class="navbar__list"><a href="./tracks.html" class="navbar__link">Tracks</a></li>
+          <li class="navbar__list"><a href="./news.html" class="navbar__link">News</a></li> 
+          <li class="navbar__list"><a href="./champions.html" class="navbar__link">Champions</a></li> 
+
+          <li class="navbar__list"><a href="#" class="nabvar__link"><img src="/src/img/icons/facebook.svg" alt="social"></a></li>
+          <li class="navbar__list"><a href="https://twitter.com/BoxBox_Club" class="nabvar__link"><img src="/src/img/icons/twitter.svg" alt="social"></a></li>
+          <li class="navbar__list"><a href="https://www.instagram.com/boxbox_club/" class="nabvar__link"><img src="/src/img/icons/instagram (2).svg" alt="social" width="29" height="23"></a></li>
+        </ul>
+      </nav>
+
+      <div class="media-header">          
+        <div class="hamburger">
+          <input id="menu-toggle" type="checkbox">
+    
+          <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
+    
+          <ul class="menu">
+            <li class="navbar__list_media"><a href="../index.html" class="navbar__link_media">Home</a></li>
+            <li class="navbar__list_media">
+              <div class="dropdown">
+                <a class="navbar__link_brd dropdown-toggle" href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
+                  Teams
+                </a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"></a>
+                  <a class="dropdown-item" href="./teams/Alfa Romeo.html">Alfa Romeo</a>
+                  <a class="dropdown-item" href="./teams/Alpha Tauri.html">Alpha Tauri</a>
+                  <a class="dropdown-item" href="./teams/Alpine.html">Alpine</a>
+                  <a class="dropdown-item" href="./teams/Aston Martin.html">Aston Martin</a>
+                  <a class="dropdown-item" href="./teams/Ferrari.html">Ferrari</a>
+                  <a class="dropdown-item" href="./teams/Haas.html">Haas</a>
+                  <a class="dropdown-item" href="./teams/McLaren.html">McLaren</a>
+                  <a class="dropdown-item" href="./teams/Mercedes.html">Mercedes</a>
+                  <a class="dropdown-item" href="./teams/Red Bull.html">Red Bull</a>
+                  <a class="dropdown-item" href="./teams/Williams.html">Williams</a>
+                </div>
+              </div>
+            </li>
+            <li class="navbar__list_media"><a href="./tracks.html" class="navbar__link_media">Tracks</a></li>
+            <li class="navbar__list_media"><a href="./news.html" class="navbar__link_media">News</a></li> 
+            <li class="navbar__list_media"><a href="./champions.html" class="navbar__link_media">Champions</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+      <section class="section section-1">
+        <div class="section__block">
+          <div class="section__block_left">
+            <img src="/src/img/icons/create.svg" alt="create" class="image__create">
+            <h3 class="section__block_left_description">YOUR OWN RACING <span class="section__block_left_description_exp">EXPERIENCE</span></h3>
+            <ul class="navbar__lists">
+            <li class="navbar__list"><a href="https://apps.apple.com/app/box-box-club/id1621241916"><img src="/src/img/icons/app-store-button.svg" alt="app" class="image2"></a></li>
+            <li class="navbar__list"><a href="https://play.google.com/store/apps/details?id=club.boxbox.android"><img src="/src/img/icons/play-store-button.svg" alt="google" class="image2"></a></li></ul>
+          </div>
+        
+          <div class="section__block_right">
+            <img src="/src/img/Box Box.png" alt="" width="450px" height="371px" class="image__box_track">
+            </div>
+          </div>
+      </section>   
+
+      <section class="section section-2">
+        <div class="section__welcome">
+          <h1 class="section__title">F1 Champions</h1>
+          <p class="section__description">
+            Formula 1 began in 1950 and since then many legendary drivers and teams have dazzled audiences around the world. From Juan Manuel Fangio to Alberto Ascari, Ayrton Senna to Michael Schumacher, Lewis Hamilton to Max Verstappen, F1 has crowned many champions over the years.
+          <br><br>
+          Overall, thirty-four different drivers have won the Championship, with German Michael Schumacher and Briton Lewis Hamilton both holding the record for most titles, at seven. Schumacher also holds the record for most consecutive Drivers' Championships, winning five from 2000 to 2004. However, Great Britain has produced, by far, the most number of World Championship winning drivers with ten (Brazil, Germany and Finland are next closest, with three each).<br><br></p>
+        </div>
+      </section>
+
+    <main class="main">
+      <section class="section">
+        <img src="../img/champions/max.jfif" alt="max-champ" class="image__max-champ">
+      </section>
+     
+      <section class="section section-5">
+        <div class="section__features">
+          <div class="section-5__left">
+            <h3 class="section-5__title3">Champions</h3>
+            <h1 class="section__title">Formula 1 records</h1>
+            <p class="section-5__description">Motorsport is all about pushing yourself and your car to the absolute limit. Over the decades, Formula 1 records have tumbled as drivers have pushed harder, engines have become more powerful and the cars, inevitably, faster. <br> <br>
+            Achievement in F1 is spread between constructors and drivers. Over decades in the sport, teams like Ferrari, McLaren and Williams have broken Formula 1 records with consistently quick cars and the fastest drivers.</p>
+            <h2 class="section-5__title2">More records soon!</h2>
+          </div>
+
+          <div class="section-5__right">
+            <img src="../img/champions/records.jpg" alt="rec" class="image__records">
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-6">
+        <h1 class="section__title" style="border-bottom: 2px solid #FF0000">List of Formula 1 records
+        </h1>  
+        <div class="section__reviews_news">  
+          <div class="section-6__block news">
+            <h3 class="section-6__title3">Most Drivers’ World Championships</h3>
+
+            <div class="table-container">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Pos</th>
+                    <th>Driver</th>
+                    <th>Championships</th>
+                    <th>Seasons</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Pos">1</td>
+                    <td data-label="Driver">Michael Schumacher	</td>
+                    <td data-label="Championships">7</td>
+                    <td data-label="Seasons">1994, 1995, 2000, 2001, 2002, 2003, 2004 </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Pos">1</td>
+                    <td data-label="Driver">Lewis Hamilton</td>
+                    <td data-label="Championships">7</td>
+                    <td data-label="Seasons">2008, 2014, 2015, 2017, 2018, 2019, 2020 </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Pos">3</td>
+                    <td data-label="Driver">Juan Manuel Fangio	</td>
+                    <td data-label="Championships">5</td>
+                    <td data-label="Seasons">1951, 1954, 1955, 1956, 1957</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Pos">4</td>
+                    <td data-label="Driver">Alain Prost</td>
+                    <td data-label="Championships">4</td>
+                    <td data-label="Seasons">1985, 1986, 1989, 1993  </td>
+                  </tr>
+                  <tr>
+                    <td data-label="Pos">4</td>
+                    <td data-label="Driver">Sebastian Vettel</td>
+                    <td data-label="Championships">4</td>
+                    <td data-label="Seasons">2010, 2011, 2012, 2013 </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p class="section-6__description">As of the 2023 season, and despite Max Verstappen’s current domination, Lewis Hamilton and Michael Schumacher are tied with seven titles apiece. The German was dominant at the turn of the century, winning five titles on the bounce with Ferrari. These were in addition to his double world championships with Benetton in the ’90s. It was a record that looked unassailable. However, Lewis Hamilton and Mercedes’ dominance in the hybrid era turned the motorsport world on its head.
+            </p>
+
+            <div class="section__numbers">
+              <ul class="navbar__lists">
+                <li class="navbar__list">
+                  <img src="../img/champions/schumacher.jpg" alt="schu" class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/lewis.avif" alt="ham"class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/alain.jpg" alt="alain" class="image__drivers">
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-6__block news">
+            <h3 class="section-6__title3">Most Constructors’ World Championships</h3>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Pos</th>
+                  <th>Team</th>
+                  <th>Championships</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Pos">1</td>
+                  <td data-label="Team">Ferrari</td>
+                  <td data-label="Championships">16</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">2</td>
+                  <td data-label="Team">Williams</td>
+                  <td data-label="Championships">9</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">3</td>
+                  <td data-label="Team">McLaren</td>
+                  <td data-label="Championships">8</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">3</td>
+                  <td data-label="Team">Mercedes</td>
+                  <td data-label="Championships">8</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">5</td>
+                  <td data-label="Team">Lotus</td>
+                  <td data-label="Championships">5</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p class="section-6__description">As the longest-serving team in Formula 1, it’s no surprise to see Ferrari sitting atop the Constructors’ Championship table. Omnipresent in Formula 1 since its first season in 1950, the Scuderia has become a symbol for the sport. But it’s one thing to turn up to every race, it’s another to win them. For decades, the Scarlet Red Ferrari has been at the front of the grid, and it has won the Constructors’ title 16 times, along with producing the Drivers’ champion on 15 occasions. Its’ world champions include Alberto Ascari, Juan Manuel Fangio, Mike Hawthorn, Phil Hil, Niki Lauda, Michael Schumacher and, most recently, Kimi Raikkonen.
+            </p>
+
+            <div class="section__numbers">
+              <ul class="navbar__lists">
+                <li class="navbar__list">
+                  <img src="../img/champions/ferrari.jpg" alt="fer" class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/williams.webp" alt="wil"class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/McLaren.jpg" alt="mc" class="image__drivers">
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="section-6__block news">
+            <h3 class="section-6__title3">Most pole positions (driver) </h3>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Pos</th>
+                  <th>Driver</th>
+                  <th>Pole positions </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Pos">1</td>
+                  <td data-label="Driver">Lewis Hamilton</td>
+                  <td data-label="Pole positions">104</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">2</td>
+                  <td data-label="Driver">Michael Schumacher</td>
+                  <td data-label="Pole positions">68</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">3</td>
+                  <td data-label="Driver">Ayrton Senna</td>
+                  <td data-label="Pole positions">65</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">5</td>
+                  <td data-label="Driver">Jim Clark</td>
+                  <td data-label="Pole positions">33</td>
+                </tr>
+                <tr>
+                  <td data-label="Pos">5</td>
+                  <td data-label="Driver">Alain Prost</td>
+                  <td data-label="Pole positions">33</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p class="section-6__description">Interms of pole positions, there’s a clear winner. Lewis Hamilton is the first driver to reach triple-digit pole positions. He secured his 100th pole position at the Spanish Grand Prix in 2021. His nearest rival is Michael Schumacher, but with 68 pole positions, it doesn’t come close to the British driver’s total.
+            </p>
+
+            <div class="section__numbers">
+              <ul class="navbar__lists">
+                <li class="navbar__list">
+                  <img src="../img/champions/lewis2.jpg" alt="car" class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/schu.jpg" alt="car"class="image__drivers">
+                </li>
+                <li class="navbar__list">
+                  <img src="../img/champions/lewis3.jfif" alt="car" class="image__drivers">
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <iframe width="100%" height="515" src="https://www.youtube.com/embed/vxEwUP4BMGE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="border-top: 5px solid #FF0000"></iframe>
+      </section>
+
+      <!-- <section class="section swiper">
+        <div class="block__swiper">
+          <h1 class="section__title" style="border-bottom: 2px solid #FF0000">Analysis</h1>
+          
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide swiper-slide--six">
+                <div>
+                  <h2>OPINION: Why Sir Jackie Stewart is the greatest F1 driver of all time
+                  </h2>
+                  <p>
+                    The three-time World Champion, in Jake Nichol's opinion, is the greatest Formula 1 driver of all time. Here's why.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter9">Read more</a>
+                </div>
+              </div>
+
+              <div class="swiper-slide swiper-slide--seven">
+                <div>
+                  <h2>The traits needed to be considered F1's 'GOAT'</h2>
+                  <p>
+                    It's an age-old question that will forever divide, but what exactly does a driver need to be considered F1's 'Greatest of All Time?'
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter10">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--eight">
+                <div>
+                  <h2>OPINION: Binotto would be wise to steer clear of Alpine omnishambles
+                  </h2>
+                  <p>
+                    The ex-Ferrari boss has been tipped as a potential replacement for Otmar Szafnauer at Alpine, but would be wise to avoid.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter11">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--nine">
+                <div>
+                  <h2>Mercedes join Ferrari with 'Frankenstein' development </h2>
+                  <p>
+                    Technical Analyst Paolo Filisetti takes a deep dive on Mercedes' Belgian GP upgrade.
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter12">Read more</a>
+                </div>
+              </div>
+          
+              <div class="swiper-slide swiper-slide--ten">
+                <div>
+                  <h2>Winners and Losers from 2023 F1 Hungarian Grand Prix Qualifying
+                  </h2>
+                  <p>
+                    Who has made the Winners and Losers from Qualifying for the 2023 Hungarian Grand Prix?
+                  </p>
+                  <a href="#" class="btns__swiper btns__add_swiper" data-toggle="modal" data-target="#exampleModalCenter13">Read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+        
+      <section class="section section-9">
+        <div class="section__banner">
+          <img src="/src/img/banner.png" alt="banner" width="100%" >
+        </div>
+      </section>
+
+      <section class="section section-10">
+        <h1 class="section-10__title">We'd Love to Hear from You
+        </h1>
+
+        <div class="section__form">
+          <div class="section-10__block_left">
+            <form class="contact">
+              <ul class="navbar__lists_form">
+                <li class="navbar__list_form">
+                  <input type="text" class="field" placeholder="Name">  
+                </li>
+
+                <li class="navbar__list_form">
+                  <input type="email" class="field" placeholder="Email"> <br> 
+                </li>
+              </ul>
+                
+              <textarea required cols="30" rows="10" placeholder="Subject" class="subject"></textarea>  <br>  
+              <textarea required cols="30" rows="10" placeholder="How can we help you?" class="help"></textarea> 
+   
+              <input type="submit" class="btn btn_add">
+            </form>
+          </div>
+
+          <div class="section-10__block_right">
+            <img src="/src/img/map.png" alt="map" class="image__map" width="570" height="350">
+          </div>
+        </div>
+      </section>
+    </main>
+
+      <footer class="footer">
+        <nav class="navbar">
+          <ul class="navbar__lists_footer">
+            <li class="navbar__list"><p class="footer__text_description">© Arkade Club Pvt. Ltd.</p></li>
+           
+            <li class="navbar__list"><a href="mailto:boxbox@gmail.com" class="navbar__link_footer">Contact Us</a></li>
+
+            <li class="navbar__list"><img src="/src/img/icons/no1@2x.svg" alt="" srcset=""></a></li>
+            <li class="navbar__list"><a href="https://apps.apple.com/app/box-box-club/id1621241916"><img src="/src/img/icons/appstore@2x.svg" alt="app"></a></li>
+            <li class="navbar__list"><a href="https://play.google.com/store/apps/details?id=club.boxbox.android"><img src="/src/img/icons/googleplay@2x.svg" alt="google"></a></li>
+
+            <li class="navbar__list"><a href="#" class="nabvar__link"><img src="/src/img/icons/facebook.svg" alt="social"></a></li>
+            <li class="navbar__list"><a href="https://twitter.com/BoxBox_Club" class="nabvar__link"><img src="/src/img/icons/twitter.svg" alt="social"></a></li>
+            <li class="navbar__list"><a href="https://www.instagram.com/boxbox_club/" class="nabvar__link"><img src="/src/img/icons/instagram (2).svg" alt="social" width="29" height="23"></a></li>
+          </ul>
+        </nav>
+      </footer>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Webber heaps praise on Piastri for ‘phenomenal’ first half of rookie F1 season</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Piastri debuted with McLaren in 2023 after a high-profile contract dispute involving the Woking squad and rivals Alpine – which he previously represented as a reserve driver – last summer. <br> <br>
+
+              <span>Having spent 2022 on the sidelines off the back of successive F3 and F2 titles, Piastri was thrust back into the limelight alongside the established Lando Norris – McLaren team boss Zak Brown admitting that there would be some “race rustiness” to shake off.</span> <br> <br>
+                
+              But the 22-year-old has excelled so far, taking his first points in his third Grand Prix on home soil in Australia, and joining Norris in the fight at the front of the field in Britain and Hungary amid a flurry of developments for McLaren’s MCL60 package.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">6 times the best F1 drivers and best cars combined to produce relentless brilliance</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">The combination of Verstappen and the Red Bull RB19 has been unbeatable for most of the season, with only team-mate Sergio Perez able to interrupt that winning run. It’s a classic case of the best driver and car combining to produce spectacular dominance. <br><br>
+
+                <span>READ MORE: Our writers look back on 2023 so far and predict what's to come in the second half of the season</span><br><br>
+                
+                But this is far from the first time in F1 history that such a combination has won race after race.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Alunni Bravi sets out main priority for Key when he joins Alfa Romeo technical team next month</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Key – who previously worked at the team as a Technical Director when they were Sauber from 2010 to 2012 – left McLaren in May, before it was announced that he would be replacing Jan Monchaux at Alfa Romeo, in a move the team described as “a statement of intent”. <br> <br>
+
+                <span>READ MORE: Our writers look back on 2023 so far and predict what's to come in the second half of the season</span><br> <br>
+                
+                Key is set to get started in the role on September 1, 2023, with the goal of improving their current car, the C43, as they battle for seventh in the constructors’ standings, while also readying themselves for Audi’s arrival into the sport in 2026.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Robson highlights areas 'very skilful' Albon has improved upon this season</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">After a year as Red Bull's reserve driver, Albon joined Williams in 2022 and his performances this season – which include his P7 finish in Montreal and coming home in eighth place at Silverstone – have earned rave reviews. <br><br>
+
+                <span>LIGHTS TO FLAG: Rubens Barrichello on Schumacher, Ferrari, the Brawn adventure – and his racing exploits after F1</span> <br><br>
+                
+                When asked about Albon – who has scored all of Williams’ 11 points this year and currently sits 13th in the drivers’ standings – Robson was full of praise for his performances, sharing an example of when the Thai racer’s "calmness" helped the team this season.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Mercedes share latest sustainability report highlighting key improvements</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="title-description">Mercedes revealed they have made a 21% reduction since 2022 in their air travel emissions – saving 2,600 tonnes of C02. This has been aided by pioneering book and claim and investment into Sustainable Aviation Fuel. <br><br>
+
+                <span>Some other improvements made by Mercedes include 98% of waste diverted from landfill to energy recovery and recycling, and a reduction of gas emissions by 13%, as they make the move towards full electrification.</span> <br><br>
+                
+                Lastly, they have made an 88% reduction in emissions through a biofuel freight trial which has been used throughout the European portion of the 2023 calendar, having previously targeted over a 60% reduction in emissions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+    <!-- !Swiper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/src/js/swiper.js"></script>
+    <script src="/src/js/dropdown.js"></script>
+    <script src="/src/js/modal.js"></script>
+    <!-- <script src="/src/js/scroll.js"></script> -->
+  </body>
+</html>

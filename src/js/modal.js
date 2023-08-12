@@ -1,3 +1,3 @@
 const modal = document.getElementById("myModal");
 
-modal.onbort("shown.bs.modal" , () => modal.trigger("focus"));
+modal.on("shown.bs.modal", () => modal.trigger("focus"));

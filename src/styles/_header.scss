@@ -13,3 +13,17 @@
 
   font-family: $font-family;
 }
+
+@media screen and (max-width: 980px)  {
+  .header {
+    padding-left: $p-1-5;
+    padding-right: $p-1-5;
+  }
+}
+
+@media screen and (max-width: 650px)  {
+  .header {
+    padding-left: $p-1-5;
+    padding-right: $p-1-5;
+  }
+}

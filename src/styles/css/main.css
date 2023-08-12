@@ -129,11 +129,21 @@ input {
   }
 }
 .image__car {
+  width: 370px;
+  height: 470px;
+  box-shadow: 7px 5px 5px #eb0000;
+}
+.image__car:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #B22222;
+  cursor: pointer;
+}
+.image__car_alfa {
   box-shadow: 7px 5px 5px #eb0000;
   width: 370px;
   height: 470px;
 }
-.image__car:hover {
+.image__car_alfa:hover {
   transform: translateY(-10px);
   box-shadow: 10px 10px 10px #B22222;
   cursor: pointer;
@@ -372,50 +382,199 @@ input {
   cursor: pointer;
 }
 
-@media (max-width: 360px) {
-  .image {
-    width: 100px;
-    height: 110px;
+.image__max-champ {
+  width: 100%;
+  box-shadow: 7px 5px 5px #eb0000;
+}
+
+.image__records {
+  width: 450px;
+  height: 375px;
+  margin-left: 2rem;
+  box-shadow: -7px 9px 5px 1px #eb0000;
+  border-radius: 10px;
+}
+
+.image__drivers {
+  width: 100%;
+  height: 470px;
+  box-shadow: 7px 5px 5px #eb0000;
+  margin-top: 2rem;
+}
+.image__drivers:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 10px #B22222;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 980px) {
+  .image__box {
+    display: block;
+    margin-top: 5rem;
+    width: 100%;
+    height: 270px;
+  }
+  .image__box_track {
+    display: block;
+    margin-top: 5rem;
+    width: 100%;
+    height: 270px;
+  }
+  .image__create {
+    display: block;
+    width: 350px;
+    margin-top: 7rem;
+  }
+  .image__team {
+    display: none;
+  }
+  .image__features {
+    width: 90%;
+    margin-top: 2rem;
+  }
+  .image__map {
+    display: none;
+  }
+  .image__app {
+    display: none;
+  }
+  .image__gp {
+    width: 350px;
+    height: 400px;
+  }
+  .image__pilot {
+    width: 100%;
+    height: 370px;
+  }
+  .image__car_alfa {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_alpha {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_alpine {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_aston {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_ferrari {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_haas {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_mc {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_mer {
+    width: 100%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_red {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__car_williams {
+    width: 90%;
+    height: 450px;
+    margin-left: 2rem;
+  }
+  .image__track_bahrain {
+    width: 100%;
+  }
+  .image__track_arab {
+    width: 100%;
+  }
+  .image__track_aus {
+    width: 100%;
+  }
+  .image__track_azer {
+    width: 100%;
+  }
+  .image__track_mia {
+    width: 100%;
+  }
+  .image__track_mon {
+    width: 100%;
+  }
+  .image__track_span {
+    width: 100%;
+  }
+  .image__track_can {
+    width: 100%;
+  }
+  .image__track_aust {
+    width: 100%;
+  }
+  .image__track_uk {
+    width: 100%;
+  }
+  .image__track_hun {
+    width: 100%;
+  }
+  .image__track_bel {
+    width: 100%;
+  }
+  .image__track_neth {
+    width: 100%;
+  }
+  .image__track_it {
+    width: 100%;
+  }
+  .image__track_sin {
+    width: 100%;
+  }
+  .image__track_jap {
+    width: 100%;
+  }
+  .image__track_qat {
+    width: 100%;
+  }
+  .image__track_usa {
+    width: 100%;
+  }
+  .image__track_mex {
+    width: 100%;
+  }
+  .image__track_sao {
+    width: 100%;
+  }
+  .image__track_las {
+    width: 100%;
+  }
+  .image__track_abu {
+    width: 100%;
+  }
+  .image__records {
+    width: 100%;
+    height: 270px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
-@media (min-width: 360px) and (max-width: 768px) {
-  .image {
-    width: 200px;
-    height: 210px;
-  }
-}
-@media (min-width: 758px) and (max-width: 1024px) {
-  .image {
-    width: 290px;
-    height: 300px;
-  }
-}
-@media (max-width: 360px) {
-  .image2 {
-    width: 50px;
-    height: 20px;
-  }
-}
-@media (min-width: 360px) and (max-width: 768px) {
-  .image2 {
-    width: 100px;
-    height: 30px;
-  }
-}
-@media (min-width: 758px) and (max-width: 1024px) {
-  .image2 {
-    width: 130px;
-    height: 50px;
-  }
-}
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 650px) {
   .image__box {
     display: none;
   }
   .image__box_track {
-    margin-top: 5rem;
-    width: 350px;
-    height: 270px;
+    display: none;
   }
   .image__create {
     display: none;
@@ -436,6 +595,10 @@ input {
   .image__pilot {
     width: 210px;
     height: 240px;
+  }
+  .image__car__alfa {
+    width: 100%;
+    height: 290px;
   }
   .image__car_alpha {
     width: 100%;
@@ -539,6 +702,13 @@ input {
   .image__track_abu {
     width: 100%;
   }
+  .image__records {
+    width: 90%;
+    height: 270px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transform: translateX(-10%);
+  }
 }
 .swiper {
   width: 100%;
@@ -634,9 +804,47 @@ input {
 
 @media screen and (max-width: 768px) {
   .swiper {
-    width: 85%;
+    width: 100%;
   }
 }
+.table {
+  width: 100%;
+  border: none;
+  margin-bottom: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: left;
+}
+
+.table thead th {
+  font-weight: 600;
+  border: none;
+}
+
+.table tbody td {
+  text-align: left;
+  vertical-align: top;
+}
+
+.table thead tr th:first-child, .table tbody tr td:first-child {
+  border-left: none;
+}
+
+.table thead tr th:last-child, .table tbody tr td:last-child {
+  border-right: none;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #47474b;
+}
+
+.table-container {
+  width: 100%;
+  overflow-y: auto;
+  _overflow: auto;
+  margin: 0 0 1em;
+}
+
 .modal {
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
@@ -840,6 +1048,13 @@ input {
     padding-right: 4rem;
   }
 }
+@media screen and (max-width: 980px) {
+  .team__pilot {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .section__title {
   font-size: 38px;
   font-weight: 700;
@@ -880,6 +1095,7 @@ input {
 .section-8__description {
   font-size: 18px;
   letter-spacing: 2px;
+  line-height: 25px;
 }
 
 .section-6__title,
@@ -1608,6 +1824,18 @@ input {
   font-family: "Montserrat", sans-serif;
 }
 
+@media screen and (max-width: 980px) {
+  .header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
 .section {
   padding-left: 6rem;
   padding-right: 6rem;
@@ -2097,6 +2325,60 @@ input {
     display: block;
   }
   .section-6__block,
+  .section-7__block,
+  .section-8__block,
+  .section-10__block {
+    margin-bottom: 1.5rem;
+  }
+  .section-3_numbers_1 {
+    font-size: 44px;
+  }
+  .section-3_numbers {
+    font-size: 44px;
+  }
+  .section-3_numbers_alpha, .section-3_numbers_alpine, .section-3_numbers_aston, .section-3_numbers_ferrari, .section-3_numbers_haas, .section-3_numbers_mc, .section-3_numbers_red, .section-3_numbers_williams, .section-3_numbers_mer {
+    font-size: 44px;
+  }
+}
+@media screen and (device-width: 768px) {
+  .section {
+    padding: 1rem;
+  }
+  .section__block_left_description {
+    display: none;
+  }
+  .section__features, .section__reviews, .section__game, .section__plan, .section__form, .section__track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .section__track {
+    justify-content: flex-start;
+    background: #1C1C1E;
+    border-radius: 25px;
+    width: 100%;
+  }
+  .block__track_title, .block__track_title2, .block__track_date, .block__track_text {
+    width: -moz-max-content;
+    width: max-content;
+  }
+  .block__track_description {
+    width: 100%;
+  }
+  .section-2 {
+    margin-top: 5rem;
+  }
+  .section-3,
+  .section-4,
+  .section-5,
+  .section-6,
+  .section-7,
+  .section-8,
+  .section-10 {
+    display: block;
+  }
+  .s__block,
   .section-7__block,
   .section-8__block,
   .section-10__block {
